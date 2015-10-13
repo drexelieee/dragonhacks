@@ -599,6 +599,18 @@ div[data-dimension] {
   width: 100px;
 }
 
+/*------------------*/
+/* ADDED BY SID - SURE TO BREAK */
+/* ------------------*/
+
+#sponsor {
+  background-color: #4f535e;
+  display: inline;
+  float: left;
+  padding: 0 0 80px;
+  width: 100%;
+}
+
 /*--------------------*/
 /* Works SECTION */
 /*--------------------*/

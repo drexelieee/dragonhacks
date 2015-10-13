@@ -355,12 +355,13 @@ jQuery(function($){
 	/*  11. Google Map
 	/* ----------------------------------------------------------- */
 
-	  var zoom= $('#map_canvas').gmap('option', 'zoom');
+	  var zoom= $('#map_canvas').gmap({'scrollwheel':false});
       
-      $('#map_canvas').gmap().bind('init', function(ev, map) {
-        $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
-        $('#map_canvas').gmap('option', 'zoom', 13);
-      });
+          $('#map_canvas').gmap({'scrollwheel':false}).bind('init', function(ev, map) {
+            $('#map_canvas').gmap('addMarker', {'position':'39.9540,-75.1880', 'bounds': true});
+            $('#map_canvas').gmap('option', 'zoom', 20);
+            $('#map_canvas').gmap('option', 'scrollwheel', false);
+          });
 
 
 	/* ----------------------------------------------------------- */
