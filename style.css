@@ -1341,8 +1341,7 @@ textarea .form-control {
 }
 
 #contactFeature{
-	background-image: url("img/contact-feature-bg.jpg");
-	background-repeat: no-repeat;
+  background-color: black;
 	background-size: 100% 100%;	
 	position: relative;
 	float: left;
