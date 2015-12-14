@@ -791,10 +791,24 @@ div[data-dimension] {
 }
 .col-lg-6 > img {  
   border-radius: 5%;
-  height: 150px;
+  height: 175px;
   margin: 0 auto 70px;
-  width: 300px;
+  width: 350px;
   background-color:transparent;
+}
+.col-lg-6 > .resize{
+    border-radius: 5%;
+    height: 175px;
+    margin: 0 auto 20px;
+    width: 280px;
+    background-color: transparent;
+}
+.col-lg-6 > .qualcomm{
+    border-radius: 5%;
+    height: 275px;
+    margin: 0 auto 20px;
+    width: 280px;
+    background: transparent;
 }
 .single_team h5 {
   color: #555;
