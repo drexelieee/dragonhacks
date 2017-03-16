@@ -137,3 +137,11 @@
 .about_slider .slick-dots li.slick-active button:before {
   color: #D09B2C;
 }
+.whitetext {
+  margin: 5px;
+  font-family: "Awesome Font", Verdana, Tahoma;
+}
+.whitetext-no-border {
+  margin: 5px;
+  font-family: "Awesome Font", Verdana, Tahoma;
+}
