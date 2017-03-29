@@ -145,3 +145,10 @@
   margin: 5px;
   font-family: "Awesome Font", Verdana, Tahoma;
 }
+td.logobox {
+  border: 1px solid white;
+  padding:2.5vw;
+}
+.ilogo {
+  max-width:20vw;
+}
