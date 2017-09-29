@@ -62,12 +62,13 @@
     <div id="preloader">
       <div id="status">&nbsp;</div>
     </div>
-          <div id="firstDIV" style="position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: #000;z-index: 99900;">
+    <!-- Tushar was on the right track, but he didnt do it all the way. Rework the centering of the buttons so it works on all window widths and mobile too.-->
+          <div id="firstDIV" style="position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: #000;  background-image: url('img/splash.png'); background-repeat: no-repeat; background-attachment: fixed; background-position: center; z-index: 99900;">
       <div  style="text-align: center;     position: absolute;
     top: 50%;
-    left: 40%;">
-        <button class="slider_btn" onclick="" style="border-color: white; color: white;">Register Here</button>
-        <button class="slider_btn" onclick="removeDiv()" style="border-color: white; color: white;">Go to website</button>
+    left: 35%;">
+          <span class style="padding:30px;"><a href="https://google.com"><button class="slider_btn" style="border-color: white; color: white; background-color: #07294D;">Register Here</button></a></span>
+          <span class style="padding:30px;"><button class="slider_btn" onclick="removeDiv()" style="border-color: white; color: white; background-color: #07294D;">Go to website</button></span>
       </div>
     </div>
 
