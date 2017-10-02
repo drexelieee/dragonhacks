@@ -131,11 +131,20 @@ img{
 	right: 0;
 	bottom: 0;
 	background-color: #000;
-	background-image: url("img/splash.png");
+	background-image: url("img/DragonHacks_2018_Promo_Art.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	z-index: 99900;
+}
+
+.splash-title{
+    position:absolute;
+    color:white;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top:35%;
+    font-size:3em;
 }
 
 #btn-container{
