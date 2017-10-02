@@ -9,9 +9,9 @@ var CDown = function() {
     this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
     this.interval=null;// setInterval object
 }
-function removeDiv(){
-  console.log("Hello from Tushar!")
-  $("#firstDIV").hide();
+
+function removeSplash(){
+  $("#splash-screen").hide();
 }
 
 CDown.prototype = {
