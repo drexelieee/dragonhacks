@@ -130,6 +130,7 @@ img{
 	left: 0;
 	right: 0;
 	bottom: 0;
+  background-size: cover;
 	background-color: #000;
 	background-image: url("img/DragonHacks_2018_Promo_Art.png");
 	background-repeat: no-repeat;
