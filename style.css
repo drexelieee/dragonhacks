@@ -136,23 +136,46 @@ img{
 	background-attachment: fixed;
 	background-position: center;
 	z-index: 99900;
+	
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.splash-title{
-    position:absolute;
-    color:white;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top:35%;
-    font-size:3em;
+#splash-logo{
+	width: 170px;
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.splash-text{
+	color: white;
+}
+
+#splash-title{
+	font-size: 5em;
+	font-weight: 800;
+}
+
+.splash-textcolor{
+	color: #FFC600;
+}
+
+#splash-tagline{
+	font-size: 1.35em;
+}
+
+#splash-info{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 1.5em;
+	line-height: 35px;
 }
 
 #btn-container{
 	position: absolute;
-	top: 50%;
+	top: 70%;
 	left: 50%;
-	text-align: center;
-	margin-left: -330px; /*change based on btn widths*/
+	margin-left: -330px;
 }
 
 .btn-style{
