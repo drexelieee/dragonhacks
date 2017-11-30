@@ -1615,12 +1615,25 @@ textarea .form-control {
 	#btn-container{
 		width: 100%;
 		margin-left: -280px;
+		top: 80%;
 	}
 	
 	#btn-left, #btn-right{
 		width: 80%;
 		float: left;
 		margin: auto;
+	}
+	
+	#splash-title{
+		font-size: 3em;
+	}
+	
+	#splash-tagline{
+		font-size: 1.2em;
+	}
+	
+	#splash-info{
+		font-size: 1em;
 	}
 	
 }
