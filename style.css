@@ -1624,6 +1624,10 @@ textarea .form-control {
 		margin: auto;
 	}
 	
+	#splash-logo{
+		margin-top: 30px;
+	}
+	
 	#splash-title{
 		font-size: 3em;
 	}
