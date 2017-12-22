@@ -172,12 +172,20 @@ img{
 	line-height: 35px;
 }
 
+#floater {
+    float: left;
+    height: 20%;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
 #btn-container{
 	position: absolute;
+  vertical-align: 
 	top: 75%;
 	left: 50%;
 	margin-left: -330px;
-  padding-top: 30px;
+  clear: both;
 }
 
 .btn-style{
