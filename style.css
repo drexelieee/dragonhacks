@@ -848,6 +848,7 @@ div[data-dimension] {
   padding: 25px 15px;
   text-align: center;
   width: 100%;
+	margin-bottom: 23px;
 }
 .padding {
     margin-left: 20% !important;
