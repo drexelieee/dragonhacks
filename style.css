@@ -845,9 +845,10 @@ div[data-dimension] {
   border-radius: 5px;
   display: inline;
   float: left;
-  padding: 25px 15px;
+  padding: 25px 10px;
   text-align: center;
   width: 100%;
+	margin-bottom: 23px;
 }
 .padding {
     margin-left: 20% !important;
