@@ -199,10 +199,12 @@ img{
 #btn-left{
 	width: 250px;
 	margin-right: 200px;
+	height: 100px;
 }
 
 #btn-right{
 	width: 250px;
+	height: 100px;
 }
 
 /*--------------------*/
