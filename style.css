@@ -181,11 +181,9 @@ img{
 
 #btn-container{
 	position: absolute;
-  vertical-align: 
-	top: 75%;
+	top: 60%;
 	left: 50%;
-	margin-left: -330px;
-	margin-top: 100px;
+	margin-left: -340px;
   clear: both;
 }
 
@@ -199,10 +197,12 @@ img{
 #btn-left{
 	width: 250px;
 	margin-right: 200px;
+	height: 100px;
 }
 
 #btn-right{
 	width: 250px;
+	height: 100px;
 }
 
 /*--------------------*/
@@ -1635,6 +1635,7 @@ textarea .form-control {
 		float: left;
 		margin: auto;
 		margin-bottom: 100px;
+		height: 80px;
 	}
 	
 	#splash-logo{
