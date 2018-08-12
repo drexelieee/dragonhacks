@@ -135,7 +135,7 @@ img{
 	background-image: url("img/logo.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: right;
 	background-size: contain, cover;
 	z-index: 99900;
 	
@@ -197,7 +197,7 @@ img{
 
 #btn-left{
 	width: 250px;
-	margin-right: 200px;
+	margin-right: 50px;
 	height: 100px;
 }
 
