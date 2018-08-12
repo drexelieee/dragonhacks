@@ -159,7 +159,6 @@ img{
 	font-size: 5em;
 	font-weight: 800;
 	margin-left: 25px;
-	margin-right: 350px;
 }
 
 .splash-textcolor{
@@ -168,13 +167,12 @@ img{
 
 #splash-tagline{
 	font-size: 1.35em;
-	margin-right:350px
+	margin-left50px
 }
 
 #splash-info{
 	margin-top: 30px;
 	margin-bottom: 50px;
-	margin-right: 200px;
 	font-size: 1.5em;
 	line-height: 35px;
 }
