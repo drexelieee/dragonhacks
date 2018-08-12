@@ -185,7 +185,7 @@ img{
 
 #btn-container{
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	left: 0%;
   
 }
@@ -200,13 +200,13 @@ img{
 #btn-left{
 	width: 250px;
 	height: 100px;
-	margin-right: 1000px;
+	margin-right: 900px;
 }
 
 #btn-right{
 	width: 250px;
 	height: 100px;
-	margin-right: 100px;
+	margin-right: 200px;
 }
 
 /*--------------------*/
