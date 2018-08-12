@@ -187,7 +187,7 @@ img{
 	position: absolute;
 	top: 70%;
 	left: 0%;
-  clear: both;
+  
 }
 
 .btn-style{
@@ -200,7 +200,7 @@ img{
 #btn-left{
 	width: 250px;
 	height: 100px;
-	margin-right: 600px;
+	margin-right: 1000px;
 }
 
 #btn-right{
