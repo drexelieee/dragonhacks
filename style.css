@@ -147,7 +147,7 @@ img{
 	width: 170px;
 	margin-top: 100px;
 	margin-bottom: 25px;
-	margin-right: 300px
+	margin-right: 350px
 }
 
 .splash-text{
@@ -170,6 +170,8 @@ img{
 #splash-info{
 	margin-top: 30px;
 	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 250px;
 	font-size: 1.5em;
 	line-height: 35px;
 }
@@ -200,11 +202,13 @@ img{
 	width: 250px;
 	margin-right: 50px;
 	height: 100px;
+	margin-left: 50px;
 }
 
 #btn-right{
 	width: 250px;
 	height: 100px;
+	margin-right: 50px;
 }
 
 /*--------------------*/
