@@ -187,7 +187,6 @@ img{
 	position: absolute;
 	top: 70%;
 	left: 50%;
-	margin-right: 1200px;
   clear: both;
 }
 
@@ -201,11 +200,13 @@ img{
 #btn-left{
 	width: 250px;
 	height: 100px;
+	margin-right: 50px;
 }
 
 #btn-right{
 	width: 250px;
 	height: 100px;
+	margin-right: 600px
 }
 
 /*--------------------*/
