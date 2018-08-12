@@ -167,13 +167,12 @@ img{
 
 #splash-tagline{
 	font-size: 1.35em;
-	margin-left50px
+	margin-left: 50px;
 }
 
 #splash-info{
 	margin-top: 30px;
 	margin-bottom: 50px;
-	margin-left: 25px;
 	font-size: 1.5em;
 	line-height: 35px;
 }
