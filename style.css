@@ -158,7 +158,7 @@ img{
 #splash-title{
 	font-size: 5em;
 	font-weight: 800;
-	margin-left: 25px;
+	margin-left: 75px;
 }
 
 .splash-textcolor{
@@ -167,6 +167,7 @@ img{
 
 #splash-tagline{
 	font-size: 1.35em;
+	margin-left: 50px;
 }
 
 #splash-info{
