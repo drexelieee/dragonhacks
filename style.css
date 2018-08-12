@@ -183,6 +183,12 @@ img{
     margin-bottom: -10px;
 }
 
+#btn-container{
+	position: absolute;
+	top: 80%;
+	left: 0%;
+  
+}
 .btn-style{
 	border-color: white;
 	background-color: #07294D;
