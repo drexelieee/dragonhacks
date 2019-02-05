@@ -727,9 +727,8 @@ div[data-dimension] {
   font-size: 40px;
 }
 .portfolio_area {
-  background: none repeat scroll 0 0 #ECE2E2;
+  background-color: #ECE2E2;
   color: #fff;
-  display: inline;
   float: left;
   padding-top: 30px;
   width: 100%;
@@ -739,13 +738,11 @@ div[data-dimension] {
 }
 .portfolio_gallery{
 	float: left;
-	display: inline;
 	width: 100%;
 }
 .portfolio_area_dark {
   background: none repeat scroll 0 0 #9A8787;
   color: #fff;
-  display: inline;
   float: left;
   padding-top: 30px;
   width: 100%;
