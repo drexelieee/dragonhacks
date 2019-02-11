@@ -54,6 +54,7 @@ export default class App extends Component {
 
 
         <section id="sponsors">
+          <h2>Sponsors</h2>
           <Sponsor link="https://drexel.edu/engineering/"
                    logo={require("./img/logo_drexel_ece.png")}/>
           <Sponsor link="http://www.lutron.com/en-US/Pages/default.aspx"
@@ -83,6 +84,7 @@ export default class App extends Component {
 
 
         <section id="sponsorUs">
+          <h2>Sponsor Us!</h2>
           <p>
             Please support our hackathon! Benefits include: The ability to
             recruit from the hackathon participants, gaining feedback and new
