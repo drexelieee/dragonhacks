@@ -31,7 +31,7 @@ export default class App extends Component {
 
 
         <section id="about">
-          <h2>About DragonHacks</h2>
+          <h2>About DragonHacks {App.year}</h2>
           <p>
             DragonHacks is Drexel University's 24 hour hardware-focused
             hackathon event hosted by Drexel University IEEE in {App.year} in
