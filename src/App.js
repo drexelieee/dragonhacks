@@ -51,7 +51,7 @@ export default class App extends Component {
 
 
         <section id="schedule">
-
+          <h2>Schedule</h2>
         </section>
 
 
