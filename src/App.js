@@ -163,35 +163,35 @@ export default class App extends Component {
         <section id="sponsors">
           <h2>Sponsors</h2>
           <Sponsor link="https://drexel.edu/engineering/"
-                   logo={require("./img/logo_drexel_ece.png")}
-                   alt="Drexel ECE Dept."/>
+            logo={require("./img/logo_drexel_ece.png")}
+            alt="Drexel ECE Dept."/>
           <Sponsor link="http://www.lutron.com/en-US/Pages/default.aspx"
-                   logo={require("./img/logo_lutron.jpg")}
-                   alt="Lutron"/>
+            logo={require("./img/logo_lutron.jpg")}
+            alt="Lutron"/>
           <Sponsor link="https://boomi.com/"
-                   logo={require("./img/logo_dell_boomi.svg")}
-                   alt="Dell Boomi"/>
+            logo={require("./img/logo_dell_boomi.svg")}
+            alt="Dell Boomi"/>
           <Sponsor link="https://drexel.edu/provost/"
-                   logo={require("./img/logo_drexel_provost.jpg")}
-                   alt="Drexel Office of the Provost"/>
+            logo={require("./img/logo_drexel_provost.jpg")}
+            alt="Drexel Office of the Provost"/>
           <Sponsor link="https://www.hedera.com/"
-                   logo={require("./img/logo_hedera.png")}
-                   alt="Hedera Hashgraph"/>
+            logo={require("./img/logo_hedera.png")}
+            alt="Hedera Hashgraph"/>
           <Sponsor link="https://investor.vanguard.com/corporate-portal/"
-                   logo={require("./img/logo_vanguard.svg")}
-                   alt="Vanguard"/>
+            logo={require("./img/logo_vanguard.svg")}
+            alt="Vanguard"/>
           <Sponsor link="https://www.jetbrains.com/"
-                   logo={require("./img/logo_jetbrains.png")}
-                   alt="JetBrains"/>
+            logo={require("./img/logo_jetbrains.png")}
+            alt="JetBrains"/>
           <Sponsor link="https://www.lockheedmartin.com/en-us/index.html"
-                   logo={require("./img/logo_lockheed.svg")}
-                   alt="Lockheed Martin"/>
+            logo={require("./img/logo_lockheed.svg")}
+            alt="Lockheed Martin"/>
           <Sponsor link="https://www.ieee.org/"
-                   logo={require("./img/logo_ieee.png")}
-                   alt="IEEE UPP"/>
+            logo={require("./img/logo_ieee.png")}
+            alt="IEEE UPP"/>
           <Sponsor link="https://www.sketchapp.com/"
-                   logo={require("./img/logo_sketch.png")}
-                   alt="Sketch"/>
+            logo={require("./img/logo_sketch.png")}
+            alt="Sketch"/>
         </section>
 
 
