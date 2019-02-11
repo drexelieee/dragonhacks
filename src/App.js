@@ -93,6 +93,9 @@ export default class App extends Component {
             contact <a href="mailto:teamdragonhacks@gmail.com">teamdragonhacks@gmail.com</a> to
             begin sponsoring!
           </p>
+          <a href={require('./pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
+            Full Sponsorship information
+          </a>
           <div>
             In partnership with
           </div>
