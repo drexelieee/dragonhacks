@@ -10,18 +10,20 @@ export default class App extends Component {
     return (
       <div id="app">
         <section id="home">
-          <h1>DragonHacks!</h1>
+          <h1>Dragon Hacks!</h1>
           <div>Drexel's very own 24-hour hackathon!</div>
           <div>
             <a href="https://goo.gl/maps/EQj1FVXS1UG2">
-              <span className="fas fa-map-marker-alt">
-                &nbsp;Bossone Research Enterprise Center
+              <span className="fas fa-map-marker-alt" style={{ marginRight: '1ex' }}/>
+              <span>
+                Bossone Research Enterprise Center
               </span>
             </a>
           </div>
           <div>
-            <time className="fas fa-calendar" dateTime="2019-04-20">
-              &nbsp;April 20<sup>th</sup>&ndash;21<sup>st</sup> {App.year}
+            <span className="fas fa-calendar" style={{ marginRight: '1ex' }}/>
+            <time dateTime="2019-04-20">
+              April 20<sup>th</sup>&ndash;21<sup>st</sup> {App.year}
             </time>
           </div>
         </section>
