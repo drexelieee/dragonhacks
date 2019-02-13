@@ -57,9 +57,19 @@ span.prepend {
   text-transform: uppercase;
 }
 
-@media (max-height: 300px) {
+#home div {
+  margin: 0.5em 0;
+}
+
+#home > div.quick-info {
+  margin: 1em 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media (max-height: 470px) {
   #home {
-    height: 300px;
+    height: 470px;
   }
 
   #home::before {
