@@ -1,7 +1,25 @@
+/* Variables */
+:root {
+  /* Theme colors */
+  --primary-color: #D09B2C;
+  --secondary-color: black;
+  --default-background-color: white;
+  --font-color-light: white;
+  --font-color-dark: #313338;
+
+  /*
+  #ECE2E2
+  #9A8787
+  #444
+  #4f535e
+  */
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  color: var(--font-color-dark);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
