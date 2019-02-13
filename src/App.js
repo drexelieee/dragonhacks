@@ -19,7 +19,7 @@ export default class App extends Component {
             <li><a href="#sponsors">Sponsors</a></li>
           </ul>
         </nav>
-
+        {/* Test */}
 
         <section id="home">
           <h1>Dragon<wbr/>Hacks!</h1>
