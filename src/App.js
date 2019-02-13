@@ -42,7 +42,9 @@ export default class App extends Component {
 
 
         <section id="about">
-          <h2>About DragonHacks {App.year}</h2>
+          <header>
+            <h2>About DragonHacks {App.year}</h2>
+          </header>
           <p>
             DragonHacks is Drexel University's 24 hour hardware-focused
             hackathon event hosted by Drexel University IEEE in {App.year} in
@@ -65,12 +67,16 @@ export default class App extends Component {
 
 
         <section id="schedule">
-          <h2>Schedule</h2>
+          <header>
+            <h2>Schedule</h2>
+          </header>
         </section>
 
 
         <section id="faq">
-          <h2>FAQ</h2>
+          <header>
+            <h2>FAQ</h2>
+          </header>
           <FAQ question="Is there a code of conduct?">
             Yes. Abide by the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
             Code of Conduct</a>
@@ -175,7 +181,9 @@ export default class App extends Component {
 
 
         <section id="sponsors">
-          <h2>Sponsors</h2>
+          <header>
+            <h2>Sponsors</h2>
+          </header>
           <Sponsor link="https://drexel.edu/engineering/"
             logo={require("./img/logo_drexel_ece.png")}
             alt="Drexel ECE Dept."/>
@@ -210,7 +218,9 @@ export default class App extends Component {
 
 
         <section id="sponsorUs">
-          <h2>Sponsor Us!</h2>
+          <header>
+            <h2>Sponsor Us!</h2>
+          </header>
           <p>
             Please support our hackathon! Benefits include: The ability to
             recruit from the hackathon participants, gaining feedback and new
