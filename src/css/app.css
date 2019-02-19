@@ -76,3 +76,15 @@ span.prepend {
     height: 25%;
   }
 }
+
+.bg-transition {
+  background-color: var(--bg-color-light);
+}
+
+#sponsors div.package {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}

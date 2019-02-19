@@ -1,0 +1,13 @@
+div.sponsor {
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  div.sponsor {
+    margin-top: 0;
+  }
+
+  div.sponsor + div.sponsor {
+    margin-top: 40px;
+  }
+}

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import '../css/sponsor.css';
 
 export default class Sponsor extends Component {
   render() {

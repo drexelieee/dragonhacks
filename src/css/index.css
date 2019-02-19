@@ -3,14 +3,13 @@
   /* Theme colors */
   --primary-color: #D09B2C;
   --secondary-color: black;
-  --default-background-color: white;
+  --bg-color: white;
+  --bg-color-light: #ECE2E2;
   --font-color-light: white;
   --font-color-dark: #313338;
 
   font-size: 12pt;
   /*
-  #ECE2E2
-  #9A8787
   #444
   #4f535e
   */
