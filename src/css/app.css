@@ -1,8 +1,18 @@
+a.button {
+  border: solid 2px;
+  padding: 0.5em;
+  display: inline-block;
+}
+
 span.accent {
   color: var(--primary-color);
 }
 span.prepend {
   margin-right: 0.5em;
+}
+
+.bg-transition {
+  background-color: var(--bg-color-light);
 }
 
 #navbar {
@@ -77,10 +87,6 @@ span.prepend {
   }
 }
 
-.bg-transition {
-  background-color: var(--bg-color-light);
-}
-
 #sponsors div.package {
   margin: 40px 0;
   display: flex;
@@ -91,4 +97,12 @@ span.prepend {
 
 #sponsors div.package:first-of-type {
   margin-top: 0;
+}
+
+#sponsorUs div.additional-info {
+  text-align: center;
+}
+
+#sponsorUs div.additional-info > div {
+  margin: 1em auto;
 }

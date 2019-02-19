@@ -58,6 +58,10 @@ a {
   color: unset;
 }
 
+p a {
+  text-decoration: underline;
+}
+
 @media (max-width: 510px) {
   h1 {
     font-size: 32pt;

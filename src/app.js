@@ -245,13 +245,19 @@ export default class App extends Component {
               contact <a href="mailto:teamdragonhacks@gmail.com">teamdragonhacks@gmail.com</a> to
               begin sponsoring!
             </p>
-            <a href={require('./pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
-              Full Sponsorship information
-            </a>
-            <div>
-              In partnership with
+            <div className="additional-info">
+              <div style={{fontWeight: "bold"}}>In partnership with</div>
+              <div>
+                <a href="https://mlh.io/">
+                  <img src={require("./img/logo_mlh.svg")} width="200" alt="MLH"/>
+                </a>
+              </div>
+              <div>
+                <a className="button" href={require('./pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
+                  Full&nbsp;Sponsorship&nbsp;Information
+                </a>
+              </div>
             </div>
-            <img src={require("./img/logo_mlh.svg")} width="300" alt="MLH"/>
           </section>
 
 
