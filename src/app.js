@@ -89,7 +89,7 @@ export default class App extends Component {
             (keyboard, mouse, etc.).
           </FAQ>
           <FAQ question="Do you provide any hardware?">
-            Yes! Here is the list of hardware we will be providing during DragonHacks
+            Yes! Here is the list of hardware we will be providing during DragonHacks {' '}
             {App.year}: <a href="img/DragonHacks%202018%20Hardware%20List.pdf">Hardware List</a>
           </FAQ>
           <FAQ question="Are there prizes?">
