@@ -1,4 +1,8 @@
-/* Variables */
+/*
+ * Style for base tag names. Put styles on classes
+ * in `css/app.css`.
+ */
+
 :root {
   /* Theme colors */
   --primary-color: #D09B2C;
@@ -7,8 +11,6 @@
   --bg-color-light: #ECE2E2;
   --font-color-light: white;
   --font-color-dark: #313338;
-
-  font-size: 12pt;
   /*
   #444
   #4f535e
@@ -19,7 +21,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
   color: var(--font-color-dark);
+  background-color: var(--bg-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -38,7 +42,7 @@ h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 60pt;
+  font-size: 64pt;
 }
 
 h2 {
@@ -46,7 +50,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 a {
@@ -54,29 +58,40 @@ a {
   color: unset;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 510px) {
   h1 {
-    font-size: 30pt;
+    font-size: 32pt;
   }
 
   h2 {
-    font-size: 18pt;
+    font-size: 24pt;
   }
 
   h3 {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 }
 
 section {
-  margin: 30px 0;
+  margin: 2.4em 0;
   padding: 0 10%;
+}
+
+section:first-of-type {
+  margin: 0;
 }
 
 section > header {
   position: relative;
   left: -3%;
-  margin-bottom: 20px;
+  font-size: 36pt;
   display: inline-block;
-  border-bottom: 11px solid var(--primary-color);
+  margin-bottom: 1em;
+  border-bottom: 0.1em solid var(--primary-color);
+}
+
+@media (max-width: 510px) {
+  section > header {
+    font-size: 24pt;
+  }
 }

@@ -2,7 +2,7 @@ span.accent {
   color: var(--primary-color);
 }
 span.prepend {
-  margin-right: 1ex;
+  margin-right: 0.5em;
 }
 
 #navbar {
@@ -10,28 +10,28 @@ span.prepend {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  padding: 5px 10px;
+  width: 96vw;
+  padding: 1vh 2vw;
   background-color: var(--secondary-color);
   color: var(--font-color-light);
 }
 
-#navbar > span:nth-child(1) {
-  margin-right: 20px;
-  font: 700 35px 'Varela';
+#navbar > span:first-of-type {
+  margin-right: 0.6em;
+  font: bold 24pt 'Varela', sans-serif;
 }
 
 #navbar > ul {
   margin: 0;
   padding: 0;
-  font: 600 15px 'Open Sans';
+  font: bolder 1em 'Open Sans', sans-serif;
   list-style-type: none;
   display: inline-flex;
   flex-wrap: wrap;
 }
 
 #navbar > ul > li {
-  margin: 1ex;
+  margin: 0 0.5em;
   text-transform: uppercase;
 }
 
@@ -63,8 +63,8 @@ span.prepend {
 
 #home > div.quick-info {
   margin: 1em 0;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: bolder;
+  font-size: 15pt;
 }
 
 @media (max-height: 470px) {
@@ -87,4 +87,8 @@ span.prepend {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+}
+
+#sponsors div.package:first-of-type {
+  margin-top: 0;
 }
