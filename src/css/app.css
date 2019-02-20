@@ -1,3 +1,7 @@
+/******************
+ * Type Selectors *
+ ******************/
+
 :root {
   /* Theme colors */
   --primary-color: #D09B2C;
@@ -95,9 +99,9 @@ section > header {
   }
 }
 
-/******************
- * Class rulesets *
- ******************/
+/*******************
+ * Class Selectors *
+ *******************/
 
 a.button {
   border: solid 2px;
