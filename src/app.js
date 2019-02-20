@@ -24,9 +24,6 @@ export default class App extends Component {
         <div className="bg-transition">
           <Sponsors/>
           <SponsorUs/>
-          <footer id="pageFooter">
-            Copyright &copy; {App.data.year} Technical Chairs, Drexel IEEE. All Rights Reserved.
-          </footer>
         </div>
       </div>
     );
