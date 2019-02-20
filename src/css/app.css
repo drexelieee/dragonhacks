@@ -116,7 +116,7 @@ a.button {
 
 a.button:hover {
   background-color: var(--secondary-color);
-  color: var(--font-color-light);
+  color: var(--primary-color);
 }
 
 span.accent {

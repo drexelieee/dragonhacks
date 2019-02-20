@@ -9,6 +9,10 @@
   color: var(--font-color-light);
 }
 
+#navbar a:hover {
+  color: var(--primary-color);
+}
+
 #navbar > span:first-of-type {
   margin-right: 0.6em;
   font: bold 24pt 'Varela', sans-serif;
