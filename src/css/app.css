@@ -8,10 +8,10 @@
   --secondary-color: black;
   --bg-color: white;
   --bg-color-light: #ECE2E2;
+  --bg-color-dark: #444;
   --font-color-light: white;
   --font-color-dark: #313338;
   /*
-  #444
   #4f535e
   */
 }
@@ -112,6 +112,11 @@ a.button {
   border: solid 2px;
   padding: 0.3em;
   display: inline-block;
+}
+
+a.button:hover {
+  background-color: var(--secondary-color);
+  color: var(--font-color-light);
 }
 
 span.accent {
