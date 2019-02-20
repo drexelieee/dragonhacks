@@ -22,6 +22,11 @@ export default class Home extends Component {
               April 20<sup>th</sup>&ndash;21<sup>st</sup> {this.props.year}
             </time>
           </div>
+          <div>
+            <a href="https://drexelieee.typeform.com/to/rzQNqb" className="button">
+              Register for DragonHacks!
+            </a>
+          </div>
         </div>
       </section>
     );
