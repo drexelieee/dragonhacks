@@ -1,0 +1,29 @@
+#navbar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96vw;
+  padding: 1vh 2vw;
+  background-color: var(--secondary-color);
+  color: var(--font-color-light);
+}
+
+#navbar > span:first-of-type {
+  margin-right: 0.6em;
+  font: bold 24pt 'Varela', sans-serif;
+}
+
+#navbar > ul {
+  margin: 0;
+  padding: 0;
+  font: bolder 1em 'Open Sans', sans-serif;
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#navbar > ul > li {
+  margin: 0 0.5em;
+  text-transform: uppercase;
+}

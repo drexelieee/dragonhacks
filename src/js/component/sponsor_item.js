@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
-import '../css/sponsor.css';
+import React, { Component } from 'react';
+import '../../css/component/sponsor_item.css';
 
-export default class Sponsor extends Component {
+export default class SponsorItem extends Component {
   render() {
     return (
       <div className="sponsor">
