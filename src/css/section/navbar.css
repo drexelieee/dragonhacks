@@ -45,6 +45,7 @@
 
 #navbar-list.inline {
   display: inline-flex;
+  align-self: center;
 }
 
 #navbar-list.expanded li {
