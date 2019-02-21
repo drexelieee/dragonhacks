@@ -3,6 +3,9 @@
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 96vw;
   padding: 1vh 2vw;
   background-color: var(--secondary-color);
@@ -13,21 +16,33 @@
   color: var(--primary-color);
 }
 
+#navbar button {
+  font-size: 20pt;
+  color: inherit;
+}
+
 #navbar > span:first-of-type {
   margin-right: 0.6em;
   font: bold 24pt 'Varela', sans-serif;
 }
 
-#navbar > ul {
+#navbar-list {
   margin: 0;
   padding: 0;
   font: bolder 1em 'Open Sans', sans-serif;
   list-style-type: none;
-  display: inline-flex;
   flex-wrap: wrap;
 }
 
-#navbar > ul > li {
+#navbar-list > li {
   margin: 0 0.5em;
   text-transform: uppercase;
+}
+
+#navbar-list.inline {
+  display: inline-flex;
+}
+
+#navbar-list.expanded {
+  text-align: end;
 }
