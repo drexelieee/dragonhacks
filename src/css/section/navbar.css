@@ -4,9 +4,7 @@
   top: 0;
   left: 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 5px 2px black;
   width: 96vw;
   padding: 1vh 2vw;
   background-color: var(--secondary-color);
@@ -29,8 +27,6 @@
 }
 
 #navbar > div:first-of-type {
-  /* margin-right: 0.6em; */
-  align-self: flex-start;
   font: bold 24pt 'Varela', sans-serif;
 }
 
@@ -49,4 +45,8 @@
 
 #navbar-list.inline {
   display: inline-flex;
+}
+
+#navbar-list.expanded li {
+  margin: 0.3em 0;
 }
