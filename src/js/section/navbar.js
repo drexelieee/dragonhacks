@@ -29,7 +29,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <nav id="navbar">
-        <span>Dragon<span className="accent">Hacks</span></span>
+        <div>Dragon<span className="accent">Hacks</span></div>
         {this.state.showMenu ? (
           <NavBarMenu/>
         ) : (
@@ -56,7 +56,7 @@ class NavBarMenu extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{textAlign: "right"}}>
         <button onClick={this.toggleMenu} className="fas fa-bars"></button>
         {this.state.expandMenu && <NavBarList class="expanded"/>}
       </div>

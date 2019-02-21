@@ -17,12 +17,19 @@
 }
 
 #navbar button {
-  font-size: 20pt;
+  font-size: 24pt;
+  background: none;
+  border: none;
   color: inherit;
 }
 
-#navbar > span:first-of-type {
-  margin-right: 0.6em;
+#navbar button:focus {
+  outline: none;
+}
+
+#navbar > div:first-of-type {
+  /* margin-right: 0.6em; */
+  align-self: flex-start;
   font: bold 24pt 'Varela', sans-serif;
 }
 
@@ -41,8 +48,4 @@
 
 #navbar-list.inline {
   display: inline-flex;
-}
-
-#navbar-list.expanded {
-  text-align: end;
 }
