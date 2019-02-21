@@ -1,7 +1,9 @@
 #home {
   background-image:
-    linear-gradient(#242434B5, #242434B5),
-    url(../../img/melting.jpg);
+    linear-gradient(
+      var(--tint-color-start),
+      var(--tint-color-end)),
+    url(../../img/dragon_arcade.png);
   background-position: center;
   background-size: cover;
   text-align: center;
