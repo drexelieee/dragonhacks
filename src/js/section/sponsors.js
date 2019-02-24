@@ -31,6 +31,9 @@ export default class Sponsors extends Component {
             <SponsorItem link="https://boomi.com/"
               logo={require("../../img/logo_dell_boomi.svg")}
               alt="Dell Boomi"/>
+            <SponsorItem link="https://cloud.google.com/"
+              logo={require("../../img/logo_google_cloud.svg")}
+              alt="Google Cloud Platform"/>
           </div>
           <div className="package bronze">
             <SponsorItem link="https://investor.vanguard.com/corporate-portal/"
