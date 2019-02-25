@@ -8,7 +8,7 @@
   background-size: cover;
   text-align: center;
   color: var(--font-color-light);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #home::before {
@@ -30,14 +30,4 @@
   margin: 1em 0;
   font-weight: bolder;
   font-size: 15pt;
-}
-
-@media (max-height: 600px) {
-  #home {
-    height: 600px;
-  }
-
-  #home::before {
-    height: 20%;
-  }
 }
