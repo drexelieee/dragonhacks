@@ -21,7 +21,7 @@ export default class App extends Component {
         <About {...App.data}/>
         <Schedule/>
         <FAQ {...App.data}/>
-        <div className="bg-transition">
+        <div style={{backgroundColor: "var(--bg-color-light)"}}>
           <Sponsors/>
           <SponsorUs/>
         </div>
