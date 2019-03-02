@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
 import '../../css/section/navbar.css';
+
+import React, { Component } from 'react';
 
 export default class NavBar extends Component {
   constructor(props) {

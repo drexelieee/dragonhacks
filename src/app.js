@@ -1,3 +1,5 @@
+import './css/app.css';
+
 import React, { Component } from 'react';
 import NavBar from './js/section/navbar';
 import Home from './js/section/home';
@@ -6,7 +8,6 @@ import Schedule from './js/section/schedule';
 import FAQ from './js/section/faq';
 import Sponsors from './js/section/sponsors';
 import SponsorUs from './js/section/sponsor_us';
-import './css/app.css';
 
 export default class App extends Component {
   static data = {
