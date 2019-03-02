@@ -60,20 +60,6 @@ p a {
   text-decoration: underline;
 }
 
-@media (max-width: 510px) {
-  h1 {
-    font-size: 32pt;
-  }
-
-  h2 {
-    font-size: 24pt;
-  }
-
-  h3 {
-    font-size: 14pt;
-  }
-}
-
 section {
   margin: 2.4em 0;
   padding: 0 10%;
@@ -98,6 +84,18 @@ section > header {
 }
 
 @media (max-width: 510px) {
+  h1 {
+    font-size: 32pt;
+  }
+
+  h2 {
+    font-size: 24pt;
+  }
+
+  h3 {
+    font-size: 14pt;
+  }
+
   section > header {
     font-size: 24pt;
   }
