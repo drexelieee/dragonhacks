@@ -5,14 +5,16 @@
 :root {
   /* Theme colors */
   --primary-color: #D09B2C;
-  --secondary-color: black;
   --tint-color-end: #D09B2C70;
   --tint-color-start: #770000D0;
-  --bg-color: white;
   --bg-color-light: #ECE2E2;
-  --bg-color-dark: #444;
+  --bg-color-dark: black;
   --font-color-light: white;
   --font-color-dark: #313338;
+
+  /* Font stacks */
+  --text-font: 'Open Sans', sans-serif;
+  --header-font: 'Montserrat', sans-serif;
 }
 
 body {
