@@ -1,3 +1,7 @@
+/*
+ * Block
+ */
+
 .text {
   font-family: var(--text-font);
   font-size: 12pt;
@@ -10,4 +14,16 @@
 
 .text:last-of-type {
   margin-bottom: 0;
+}
+
+/*
+ * Modifier
+ */
+
+.text--accent {
+  color: var(--primary-color);
+}
+
+.text--prefix {
+  margin-right: 0.5em;
 }
