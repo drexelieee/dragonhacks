@@ -1,0 +1,13 @@
+.text {
+  font-family: var(--text-font);
+  font-size: 12pt;
+  color: var(--font-color-dark);
+}
+
+.text:first-of-type {
+  margin-top: 0;
+}
+
+.text:last-of-type {
+  margin-bottom: 0;
+}
