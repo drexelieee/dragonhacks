@@ -1,0 +1,19 @@
+.section {
+  margin: 2.4em 0;
+  padding: 0 10%;
+}
+
+.section__header {
+  position: relative;
+  left: -3%;
+  font-size: 36pt;
+  display: inline-block;
+  margin-bottom: 1em;
+  border-bottom: 0.1em solid var(--primary-color);
+}
+
+@media (max-width: 510px) {
+  .section__header {
+    font-size: 24pt;
+  }
+}
