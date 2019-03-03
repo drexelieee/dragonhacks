@@ -1,0 +1,29 @@
+/*
+ * Block
+ */
+
+.logo {
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    margin-top: 0;
+  }
+
+  .logo + .logo {
+    margin-top: 40px;
+  }
+}
+
+/*
+ * Element
+ */
+
+.logo__link {
+  display: inline-block;
+}
+
+.logo__image {
+  width: 200px;
+}
