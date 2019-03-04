@@ -42,7 +42,7 @@ export default class App extends Component {
             </Text>
           </Text>
           <Text big>
-            <Clickable border>
+            <Clickable border href="https://drexelieee.typeform.com/to/rzQNqb">
               Register for DragonHacks
             </Clickable>
           </Text>
@@ -228,7 +228,7 @@ export default class App extends Component {
               <Logo href="https://mlh.org"
                 imgSrc="logo_mlh.svg"
                 altText="MLH"/>
-              <Clickable border href="http://jcarrete.me/dragonhacks/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf">
+              <Clickable border href={require('./pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
                 <Text inline>Full Sponsorship Information</Text>
               </Clickable>
             </div>
