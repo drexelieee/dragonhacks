@@ -9,3 +9,12 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+/*
+ * Element
+ */
+
+/* Broke BEM guidelines for sanity */
+.sponsor-tier > * {
+  margin: 30px;
+}
