@@ -1,0 +1,19 @@
+/*
+ * Block
+ */
+
+.faq {
+  margin: 2em 0;
+}
+
+.faq:first-of-type {
+  margin-top: 0;
+}
+
+/*
+ * Element
+ */
+
+.faq__question {
+  margin-bottom: 0.2em;
+}
