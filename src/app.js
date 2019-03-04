@@ -221,15 +221,17 @@ export default class App extends Component {
               {' '} to
               begin sponsoring!
             </Text>
-            <Text>
-              In partnership with
-            </Text>
-            <Logo href="https://mlh.org"
-              imgSrc="logo_mlh.svg"
-              altText="MLH"/>
-            <Clickable border href="http://jcarrete.me/dragonhacks/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf">
-              <Text inline>Full Sponsorship Information</Text>
-            </Clickable>
+            <div style={{textAlign: 'center', padding: '20px 0'}}>
+              <Text big>
+                In partnership with
+              </Text>
+              <Logo href="https://mlh.org"
+                imgSrc="logo_mlh.svg"
+                altText="MLH"/>
+              <Clickable border href="http://jcarrete.me/dragonhacks/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf">
+                <Text inline>Full Sponsorship Information</Text>
+              </Clickable>
+            </div>
           </Section>
         </div>
       </div>
