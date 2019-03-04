@@ -8,6 +8,7 @@ export default class Clickable extends Component {
     border: 'clickable--border',
     link: 'clickable--link',
     navLink: 'clickable--nav-link',
+    button: 'clickable--button',
   }
 
   getModifiers = () => {
@@ -22,7 +23,7 @@ export default class Clickable extends Component {
 
   render() {
     return (
-      <a className={this.getModifiers()} href={this.props.href}>
+      <a className={this.getModifiers()} href={this.props.href} onClick={this.props.onClick}>
         {this.props.children}
       </a>
     );

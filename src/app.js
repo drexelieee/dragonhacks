@@ -1,7 +1,7 @@
 import './css/app.css';
 
 import React, { Component } from 'react';
-import NavBar from './js/section/navbar';
+import NavBar from './js/navbar';
 import Section from './js/section';
 import Text from './js/text';
 import Logo from './js/logo';
@@ -18,7 +18,7 @@ export default class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Section main>
+        <Section id="home" main>
           <h1>Dragon<wbr/>Hacks</h1>
           <Text big>
             Drexel's very own 24-hour hackathon!
@@ -47,7 +47,7 @@ export default class App extends Component {
             </Clickable>
           </Text>
         </Section>
-        <Section heading={"About DragonHacks " + App.data.year}>
+        <Section id="about" heading={"About DragonHacks " + App.data.year}>
           <Text>
             DragonHacks is Drexel University's 24 hour hardware-focused
             hackathon event hosted by Drexel University IEEE in {App.data.year} in
@@ -67,8 +67,8 @@ export default class App extends Component {
             you also must participate on the Sunday judging.
           </Text>
         </Section>
-        <Section heading="Schedule"/>
-        <Section heading="FAQ">
+        <Section id="schedule" heading="Schedule"/>
+        <Section id="faq" heading="FAQ">
           <FAQ question="Is there a code of conduct?">
             Yes. Abide by the <Clickable link href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
             Code of Conduct</Clickable>
@@ -164,7 +164,7 @@ export default class App extends Component {
           </FAQ>
         </Section>
         <div style={{backgroundColor: "var(--bg-color-light)"}}>
-          <Section heading="Sponsors">
+          <Section id="sponsors" heading="Sponsors">
             <SponsorTier>
               <Logo href="https://www.ieee.org/"
                 imgSrc="logo_ieee.png"

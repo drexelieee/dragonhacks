@@ -32,3 +32,8 @@
   font-weight: bold;
   font-size: 15pt;
 }
+
+.text--bigger {
+  font-weight: bold;
+  font-size: 24pt;
+}

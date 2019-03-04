@@ -7,6 +7,7 @@ export default class Text extends Component {
     accent: 'text--accent',
     prefix: 'text--prefix',
     big: 'text--big',
+    bigger: 'text--bigger',
   }
 
   getModifiers = () => {

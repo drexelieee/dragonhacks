@@ -1,0 +1,49 @@
+/*
+ * Block
+ */
+
+.navbar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96vw;
+  padding: 0.2em 2vw;
+  background-color: var(--bg-color-dark);
+  color: var(--font-color-light);
+  font-size: 24pt;
+}
+
+/*
+ * Element
+ */
+
+.navbar__logo {
+  align-self: flex-start;
+}
+
+.navbar__menu {
+  text-align: right;
+}
+
+.navbar__list {
+  font: bolder 0.5em var(--text-font);
+  display: inline-flex;
+  color: inherit;
+}
+
+.navbar__list-item {
+  margin: 0.3em;
+  user-select: none;
+}
+
+/*
+ * Modifier
+ */
+
+.navbar__list--dropdown {
+  display: block;
+}

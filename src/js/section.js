@@ -13,7 +13,7 @@ export default class Section extends Component {
 
   render() {
     return (
-      <section className={this.getModifiers()}>
+      <section id={this.props.id} className={this.getModifiers()}>
         {this.props.heading && (
         <header className="section__header">
           <h2>{this.props.heading}</h2>
