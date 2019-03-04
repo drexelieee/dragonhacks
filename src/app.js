@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import NavBar from './js/section/navbar';
 import Section from './js/section';
 import Text from './js/text';
+import Logo from './js/logo';
+import SponsorTier from './js/sponsor_tier';
 
 export default class App extends Component {
   static data = {
@@ -38,7 +40,52 @@ export default class App extends Component {
         <Section heading="Schedule"/>
         <Section heading="FAQ"/>
         <div style={{backgroundColor: "var(--bg-color-light)"}}>
-          <Section heading="Sponsors"/>
+          <Section heading="Sponsors">
+            <SponsorTier>
+              <Logo href="https://www.ieee.org/"
+                imgSrc="logo_ieee.png"
+                altText="IEEE UPP"/>
+              <Logo href="https://drexel.edu/engineering/"
+                imgSrc="logo_drexel_ece.png"
+                altText="Drexel ECE Dept."/>
+              <Logo href="https://drexel.edu/provost/"
+                imgSrc="logo_drexel_provost.jpg"
+                altText="Drexel Office of the Provost"/>
+            </SponsorTier>
+            <SponsorTier>
+              <Logo href="http://www.lutron.com/en-US/Pages/default.aspx"
+                imgSrc="logo_lutron.png"
+                altText="Lutron"/>
+              <Logo href="https://www.lockheedmartin.com/en-us/index.html"
+                imgSrc="logo_lockheed.svg"
+                altText="Lockheed Martin"/>
+              <Logo href="https://boomi.com/"
+                imgSrc="logo_dell_boomi.svg"
+                altText="Dell Boomi"/>
+              <Logo href="https://cloud.google.com/"
+                imgSrc="logo_google_cloud.svg"
+                altText="Google Cloud Platform"/>
+            </SponsorTier>
+            <SponsorTier>
+              <Logo href="https://investor.vanguard.com/corporate-portal/"
+                imgSrc="logo_vanguard.svg"
+                altText="Vanguard"/>
+              <Logo href="https://balsamiq.com/"
+                imgSrc="logo_balsamiq.svg"
+                altText="Balsamiq"/>
+            </SponsorTier>
+            <SponsorTier>
+              <Logo href="https://www.jetbrains.com/"
+                imgSrc="logo_jetbrains.png"
+                altText="JetBrains"/>
+              <Logo href="https://www.hedera.com/"
+                imgSrc="logo_hedera.png"
+                altText="Hedera Hashgraph"/>
+              <Logo href="https://www.sketchapp.com/"
+                imgSrc="logo_sketch.png"
+                altText="Sketch"/>
+            </SponsorTier>
+          </Section>
           <Section heading="Sponsor Us!">
             <Text>
               Please support our hackathon! Benefits include: The ability to
@@ -48,6 +95,9 @@ export default class App extends Component {
               contact <a href="mailto:teamdragonhacks@gmail.com">teamdragonhacks@gmail.com</a> to
               begin sponsoring!
             </Text>
+            <Logo href="https://mlh.org"
+              imgSrc="logo_mlh.svg"
+              altText="MLH"/>
           </Section>
         </div>
       </div>
