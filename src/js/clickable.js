@@ -11,7 +11,7 @@ export default class Clickable extends Component {
   }
 
   getModifiers = () => {
-    let mods = [];
+    let mods = ['clickable'];
     for (let prop in this.props) {
       if (this.props.hasOwnProperty(prop) && Clickable.modifiers[prop]) {
         mods.push(Clickable.modifiers[prop])
@@ -22,7 +22,7 @@ export default class Clickable extends Component {
 
   render() {
     return (
-      <a className={"clickable " + this.getModifiers()} href={this.props.href}>
+      <a className={this.getModifiers()} href={this.props.href}>
         {this.props.children}
       </a>
     );

@@ -5,7 +5,7 @@
 .text {
   font-family: var(--text-font);
   font-size: 12pt;
-  color: var(--font-color-dark);
+  color: inherit;
 }
 
 .text:first-of-type {
@@ -26,4 +26,9 @@
 
 .text--prefix {
   margin-right: 0.5em;
+}
+
+.text--big {
+  font-weight: bold;
+  font-size: 15pt;
 }

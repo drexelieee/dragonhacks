@@ -18,7 +18,35 @@ export default class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Section/>
+        <Section main>
+          <h1>Dragon<wbr/>Hacks</h1>
+          <Text big>
+            Drexel's very own 24-hour hackathon!
+          </Text>
+          <Text big>
+            <Text big inline prefix>
+              <span className="fas fa-map-marker-alt"/>
+            </Text>
+            <Clickable href="https://goo.gl/maps/EQj1FVXS1UG2">
+              Bossone Research Enterprise Center
+            </Clickable>
+          </Text>
+          <Text big>
+            <Text inline big prefix>
+              <span className="fas fa-calendar"/>
+            </Text>
+            <Text inline big>
+              <time dateTime="2019-04-20">
+                April 20<sup>th</sup>&ndash;21<sup>st</sup> {this.props.year}
+              </time>
+            </Text>
+          </Text>
+          <Text big>
+            <Clickable border>
+              Register for DragonHacks
+            </Clickable>
+          </Text>
+        </Section>
         <Section heading={"About DragonHacks " + App.data.year}>
           <Text>
             DragonHacks is Drexel University's 24 hour hardware-focused
