@@ -15,5 +15,12 @@
  */
 
 .faq__question {
+  font-size: 18pt;
   margin-bottom: 0.2em;
+}
+
+@media (max-width: 510px) {
+  .faq__question {
+    font-size: 14pt;
+  }
 }
