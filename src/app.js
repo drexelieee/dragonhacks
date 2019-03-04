@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sponsor from './component/sponsor';
 import FAQ from './component/faq';
 import './css/app.css';
+import NotificationRequest from './component/notificationRequest';
 
 export default class App extends Component {
   static year = 2019;
@@ -19,8 +20,7 @@ export default class App extends Component {
             <li><a href="#sponsors">Sponsors</a></li>
           </ul>
         </nav>
-
-
+  
         <section id="home">
           <h1>Dragon<wbr/>Hacks!</h1>
           <div className="quick-info">
@@ -41,7 +41,6 @@ export default class App extends Component {
             </div>
           </div>
         </section>
-
 
         <section id="about">
           <header>
@@ -72,6 +71,7 @@ export default class App extends Component {
           <header>
             <h2>Schedule</h2>
           </header>
+          <NotificationRequest />
         </section>
 
 

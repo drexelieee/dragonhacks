@@ -1,6 +1,7 @@
 {
   "short_name": "DragonHacks",
   "name": "DragonHacks App",
+  "description": "DragonHacks companion app",
   "icons": [
     {
       "src": "favicon.ico",
@@ -11,5 +12,6 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "gcm_sender_id": "1096100270231"
 }

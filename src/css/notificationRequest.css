@@ -1,0 +1,15 @@
+.request {
+	padding: 10px;
+	color: white;
+	background: #4747d6;
+	border-radius: 4px;
+	width: auto;
+}
+
+button {
+	border: solid 2px;
+	padding: 5px;
+	width: 70px;
+	background: #d09b2c;
+	margin-right: 10px;
+}

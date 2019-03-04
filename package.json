@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jcarrete5.github.io/dragonhacks",
   "dependencies": {
+    "firebase": "^5.8.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.3"
