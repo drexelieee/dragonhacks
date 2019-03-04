@@ -7,6 +7,7 @@ import Text from './js/text';
 import Logo from './js/logo';
 import SponsorTier from './js/sponsor_tier';
 import FAQ from './js/faq';
+import Clickable from './js/clickable';
 
 export default class App extends Component {
   static data = {
@@ -41,8 +42,8 @@ export default class App extends Component {
         <Section heading="Schedule"/>
         <Section heading="FAQ">
           <FAQ question="Is there a code of conduct?">
-            Yes. Abide by the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
-            Code of Conduct</a>
+            Yes. Abide by the <Clickable link href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
+            Code of Conduct</Clickable>
           </FAQ>
           <FAQ question="What should I bring to the hackathon?">
             A valid student ID, laptop, charger, and whatever makes you
@@ -51,10 +52,11 @@ export default class App extends Component {
           </FAQ>
           <FAQ question="Do you provide any hardware?">
             Yes! Here is the list of hardware we will be providing during DragonHacks {' '}
-            {this.props.year}: <a href="img/DragonHacks%202018%20Hardware%20List.pdf">Hardware List</a>
+            {App.data.year}: {' '}
+            <Clickable link href="img/DragonHacks%202018%20Hardware%20List.pdf">Hardware List</Clickable>
           </FAQ>
           <FAQ question="Are there prizes?">
-            With over $10,000 in prizes at DragonHacks {this.props.year}, there is more
+            With over $10,000 in prizes at DragonHacks {App.data.year}, there is more
             than enough to go around! You will have the opportunity to compete
             in plenty of challenges for a chance to win: Xbox Ones, PS4s, GoPros,
             Apple Watches, Samsung LED TVs, Nintendo Switches, iPad Airs, and way
@@ -64,8 +66,8 @@ export default class App extends Component {
             submitted on Devpost in order to be eligible for judging.
           </FAQ>
           <FAQ question="How do we submit our projects?">
-            All submissions will be due on 2 PM Sunday on the DragonHacks {this.props.year}
-            {' '} <a href="http://dragonhacks2018.devpost.com/">Devpost</a>
+            All submissions will be due on 2 PM Sunday on the DragonHacks {App.data.year}
+            {' '} <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable>
             {' '} site. We highly recommend you submit at 1:30 PM to give yourself some
             wiggle room for any last-minute technical issues. All projects {' '}
             <strong>must</strong> be submitted on Devpost in order to be eligible
@@ -76,12 +78,12 @@ export default class App extends Component {
             hackers come in without teams or ideas. There are two methods to
             find teammates, and trust us, hacking with a team is a lot more
             fun! Team sizes have to be 2&ndash;5 people. You should be invited to
-            the official DragonHacks {this.props.year} {' '}
-            <a href="https://dragonhacks2018.slack.com">Slack Group</a> where we
+            the official DragonHacks {App.data.year} {' '}
+            <Clickable link href="https://dragonhacks2018.slack.com">Slack Group</Clickable> where we
             have a <b>#teamformation</b> channel dedicated to team formations.
             We will also be holding a team formation event before the kickoff
-            and opening ceremony. Also check out the DragonHacks {this.props.year} {' '}
-            <a href="http://dragonhacks2018.devpost.com/">Devpost</a> challenges
+            and opening ceremony. Also check out the DragonHacks {App.data.year} {' '}
+            <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable> challenges
             for inspiration on what problems to tackle.
           </FAQ>
           <FAQ question="What challenges are there?">
@@ -90,8 +92,8 @@ export default class App extends Component {
             best design or name &mdash; not everything is fully technical! We
             also have sponsor challenges from JetBrains, .tech, Wolfram, Lockheed
             Martin, Close School of Entrepreneurship, GLOBO, and more! The full
-            list of challenges are listed in the Official DragonHacks {this.props.year}
-            {' '} <a href="http://dragonhacks2018.devpost.com/">Devpost</a>.
+            list of challenges are listed in the Official DragonHacks {App.data.year}
+            {' '} <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable>.
           </FAQ>
           <FAQ question="Who can join?">
             DragonHacks is open to all university students (undergrad/grad). High
@@ -186,12 +188,20 @@ export default class App extends Component {
               recruit from the hackathon participants, gaining feedback and new
               users from participants using your products, and recognition for your
               company. More information is in the link to the right. Please
-              contact <a href="mailto:teamdragonhacks@gmail.com">teamdragonhacks@gmail.com</a> to
+              contact {' '}
+              <Clickable link href="mailto:teamdragonhacks@gmail.com">teamdragonhacks@gmail.com</Clickable>
+              {' '} to
               begin sponsoring!
+            </Text>
+            <Text>
+              In partnership with
             </Text>
             <Logo href="https://mlh.org"
               imgSrc="logo_mlh.svg"
               altText="MLH"/>
+            <Clickable border href="http://jcarrete.me/dragonhacks/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf">
+              <Text inline>Full Sponsorship Information</Text>
+            </Clickable>
           </Section>
         </div>
       </div>

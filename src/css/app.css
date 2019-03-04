@@ -76,28 +76,3 @@ p a {
   }
 }
 
-/*******************
- * Class Selectors *
- *******************/
-
-a.button {
-  border: solid 2px;
-  padding: 0.3em;
-  display: inline-block;
-}
-
-a.button:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-}
-
-span.accent {
-  color: var(--primary-color);
-}
-span.prepend {
-  margin-right: 0.5em;
-}
-
-.bg-transition {
-  background-color: var(--bg-color-light);
-}

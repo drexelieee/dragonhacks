@@ -1,0 +1,27 @@
+/*
+ * Block
+ */
+
+.clickable {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*
+ * Modifier
+ */
+
+.clickable--border {
+  border: solid 2px;
+  padding: 0.3em;
+}
+
+.clickable--nav-link,
+.clickable--border:hover {
+  color: var(--primary-color);
+}
+
+.clickable--link {
+  text-decoration: underline;
+}
