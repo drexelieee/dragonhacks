@@ -1,0 +1,53 @@
+#navbar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 96vw;
+  padding: 1vh 2vw;
+  background-color: var(--secondary-color);
+  color: var(--font-color-light);
+}
+
+#navbar a:hover {
+  color: var(--primary-color);
+}
+
+#navbar button {
+  font-size: 24pt;
+  background: none;
+  border: none;
+  color: inherit;
+}
+
+#navbar button:focus {
+  outline: none;
+}
+
+#navbar > div:first-of-type {
+  font: bold 24pt 'Varela', sans-serif;
+}
+
+#navbar-list {
+  margin: 0;
+  padding: 0;
+  font: bolder 1em 'Open Sans', sans-serif;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+#navbar-list > li {
+  margin: 0 0.5em;
+  text-transform: uppercase;
+}
+
+#navbar-list.inline {
+  display: inline-flex;
+  align-self: center;
+}
+
+#navbar-list.expanded li {
+  margin: 0.3em 0;
+}

@@ -1,0 +1,11 @@
+#sponsors div.package {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#sponsors div.package:first-of-type {
+  margin-top: 0;
+}
