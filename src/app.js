@@ -209,6 +209,9 @@ export default class App extends Component {
               <Logo href="https://www.sketchapp.com/"
                 imgSrc="logo_sketch.png"
                 altText="Sketch"/>
+              <Logo href="https://drexel.edu/westphal/academics/graduate/DIGM/"
+                imgSrc="logo_westphal.png"
+                altText="Drexel Westphal"/>
             </SponsorTier>
           </Section>
           <Section heading="Sponsor Us!">
