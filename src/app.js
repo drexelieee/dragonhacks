@@ -1,4 +1,5 @@
 import './css/app.css';
+import NotificationRequest from './js/notification_request';
 
 import React, { Component } from 'react';
 import NavBar from './js/navbar';
