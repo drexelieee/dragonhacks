@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../css/section/schedule.css';
+import NotificationRequest from '../../component/notificationRequest';
 
 export default class Schedule extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class Schedule extends Component {
         <header>
           <h2>Schedule</h2>
         </header>
+        <NotificationRequest/>
         <table>
           <thead>
             <tr>

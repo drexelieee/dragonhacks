@@ -128,7 +128,3 @@ export function unregister() {
     });
   }
 }
-
-// self.addEventListener("push", function (e) {
-//   console.log(e);
-// });

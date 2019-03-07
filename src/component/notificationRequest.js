@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../css/notificationRequest.css';
 import { register } from '../service_worker';
-import firebase from '../firebase';
+import firebase from '../js/firebase';
 
 export default class NotificationRequest extends Component {
 	constructor(props) {
@@ -35,8 +35,27 @@ export default class NotificationRequest extends Component {
 		}
 
 		var messaging = firebase.messaging();
-		messaging.usePublicVapidKey("BGhQOdgIn795oJK7URFsF65Kju3eMFe3fKm_nvrJ91KkZB48hhz7HzkHGcomEzRs_TATVVSq3c9iaiWqITpYMIs");
+		messaging.usePublicVapidKey("BKM3g-ptOnEJaSVV4ZKN2pUr5YdQLl5t4ay8nsu25PEzqcgLcNUjP3AafHXCi6TrY_9PEy8twb91v1YOu-M6N2s");
+		// request permission
 		messaging.requestPermission().then(() => {
+			// send token to firebase function
+			messaging.getToken()
+				.then((token) => {
+					const register = firebase.functions().httpsCallable("registerPushSubscription");
+					register(token).then((ret) => console.log(ret));
+					console.log(token);
+				});
+
+			// send to token to firebase when it refreshes
+			messaging.onTokenRefresh(() => {
+				messaging.getToken()
+				.then((token) => {
+					const register = firebase.functions().httpsCallable("registerPushSubscription");
+					register(token).then((ret) => console.log(ret));
+					console.log(token);
+				});
+			});
+
 			messaging.onMessage((payload) => {
 				console.log(payload);
 			}); 
@@ -44,11 +63,6 @@ export default class NotificationRequest extends Component {
 			console.log("Failed to request permissions");
 		});
 		
-		// const permissionResult = await Notification.requestPermission();
-
-		// if (permissionResult !== 'granted') {
-		// 	// throw new Error('We weren\'t granted permission.');
-		// }
 		this.setState({ display: false });
 	}
 
