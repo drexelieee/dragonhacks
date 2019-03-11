@@ -1,7 +1,7 @@
 import '../css/navbar.css';
 
-import React, { Component } from 'react';
-import Text from './text'
+import React, {Component} from 'react';
+import Text from './text';
 import Clickable from './clickable';
 
 export default class NavBar extends Component {
@@ -52,7 +52,7 @@ class NavBarMenu extends Component {
     super(props);
     this.state = {
       open: false,
-    }
+    };
   }
 
   toggleMenu = () => {
@@ -83,7 +83,7 @@ class NavBarList extends Component {
     let mods = ['navbar__list'];
     for (let prop in this.props) {
       if (this.props.hasOwnProperty(prop) && NavBarList.modifiers[prop]) {
-        mods.push(NavBarList.modifiers[prop])
+        mods.push(NavBarList.modifiers[prop]);
       }
     }
     return mods.join(' ');

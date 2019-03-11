@@ -1,6 +1,6 @@
 import './css/app.css';
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import NavBar from './js/navbar';
 import Section from './js/section';
 import Text from './js/text';
@@ -9,11 +9,11 @@ import SponsorTier from './js/sponsor_tier';
 import FAQ from './js/faq';
 import Clickable from './js/clickable';
 
-var appData = {
-  year: 2019
-};
-
 export default class App extends Component {
+  static data = {
+    year: 2019,
+  }
+
   render() {
     return (
       <div>
@@ -50,8 +50,8 @@ export default class App extends Component {
         <Section id="about" heading="About">
           <Text>
             DragonHacks is Drexel University's 24 hour hardware-focused
-            hackathon event hosted by Drexel University IEEE in {appData.year} in
-            the Bossone Research Enterprise Center. DragonHacks {appData.year} is
+            hackathon event hosted by Drexel University IEEE in {App.data.year} in
+            the Bossone Research Enterprise Center. DragonHacks {App.data.year} is
             bringing in the brightest minds of the world's best schools to
             spend 24 hours to create ground breaking new products from scratch!
           </Text>
@@ -80,11 +80,11 @@ export default class App extends Component {
           </FAQ>
           <FAQ question="Do you provide any hardware?">
             Yes! Here is the list of hardware we will be providing during DragonHacks {' '}
-            {appData.year}: {' '}
+            {App.data.year}: {' '}
             <Clickable link href="img/DragonHacks%202018%20Hardware%20List.pdf">Hardware List</Clickable>
           </FAQ>
           <FAQ question="Are there prizes?">
-            With over $10,000 in prizes at DragonHacks {appData.year}, there is more
+            With over $10,000 in prizes at DragonHacks {App.data.year}, there is more
             than enough to go around! You will have the opportunity to compete
             in plenty of challenges for a chance to win: Xbox Ones, PS4s, GoPros,
             Apple Watches, Samsung LED TVs, Nintendo Switches, iPad Airs, and way
@@ -94,7 +94,7 @@ export default class App extends Component {
             submitted on Devpost in order to be eligible for judging.
           </FAQ>
           <FAQ question="How do we submit our projects?">
-            All submissions will be due on 2 PM Sunday on the DragonHacks {appData.year}
+            All submissions will be due on 2 PM Sunday on the DragonHacks {App.data.year}
             {' '} <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable>
             {' '} site. We highly recommend you submit at 1:30 PM to give yourself some
             wiggle room for any last-minute technical issues. All projects {' '}
@@ -106,11 +106,11 @@ export default class App extends Component {
             hackers come in without teams or ideas. There are two methods to
             find teammates, and trust us, hacking with a team is a lot more
             fun! Team sizes have to be 2&ndash;5 people. You should be invited to
-            the official DragonHacks {appData.year} {' '}
+            the official DragonHacks {App.data.year} {' '}
             <Clickable link href="https://dragonhacks2018.slack.com">Slack Group</Clickable> where we
             have a <b>#teamformation</b> channel dedicated to team formations.
             We will also be holding a team formation event before the kickoff
-            and opening ceremony. Also check out the DragonHacks {appData.year} {' '}
+            and opening ceremony. Also check out the DragonHacks {App.data.year} {' '}
             <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable> challenges
             for inspiration on what problems to tackle.
           </FAQ>
@@ -120,7 +120,7 @@ export default class App extends Component {
             best design or name &mdash; not everything is fully technical! We
             also have sponsor challenges from JetBrains, .tech, Wolfram, Lockheed
             Martin, Close School of Entrepreneurship, GLOBO, and more! The full
-            list of challenges are listed in the Official DragonHacks {appData.year}
+            list of challenges are listed in the Official DragonHacks {App.data.year}
             {' '} <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable>.
           </FAQ>
           <FAQ question="Who can join?">

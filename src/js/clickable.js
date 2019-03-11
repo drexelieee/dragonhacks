@@ -1,6 +1,6 @@
 import '../css/clickable.css';
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 export default class Clickable extends Component {
   // Mapping of props to css modifier class names
@@ -9,13 +9,13 @@ export default class Clickable extends Component {
     link: 'clickable--link',
     navLink: 'clickable--nav-link',
     button: 'clickable--button',
-  }
+  };
 
   getModifiers = () => {
     let mods = ['clickable'];
     for (let prop in this.props) {
       if (this.props.hasOwnProperty(prop) && Clickable.modifiers[prop]) {
-        mods.push(Clickable.modifiers[prop])
+        mods.push(Clickable.modifiers[prop]);
       }
     }
     return mods.join(' ');

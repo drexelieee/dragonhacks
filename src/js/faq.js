@@ -1,6 +1,6 @@
 import '../css/faq.css';
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Text from './text';
 
 export default class FAQ extends Component {

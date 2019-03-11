@@ -1,6 +1,6 @@
 import '../css/logo.css';
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Clickable from './clickable';
 
 export default class Logo extends Component {

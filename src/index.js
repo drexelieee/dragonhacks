@@ -11,5 +11,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.register();
 
 if ('serviceWorker' in navigator) {
-	navigator.serviceWorker.register("./firebase-messaging-sw.js");
+  navigator.serviceWorker.register("./firebase-messaging-sw.js");
 }

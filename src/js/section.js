@@ -1,6 +1,6 @@
 import '../css/section.css';
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 export default class Section extends Component {
   getModifiers = () => {
@@ -15,9 +15,10 @@ export default class Section extends Component {
     return (
       <section id={this.props.id} className={this.getModifiers()}>
         {this.props.heading && (
-        <header className="section__header">
-          <h2>{this.props.heading}</h2>
-        </header> )}
+          <header className="section__header">
+            <h2>{this.props.heading}</h2>
+          </header>
+        )}
         {this.props.children}
       </section>
     );

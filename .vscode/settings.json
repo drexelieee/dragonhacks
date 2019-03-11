@@ -1,18 +1,17 @@
 {
+    "files.insertFinalNewline": true,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "[javascript]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true
     },
     "[css]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true
     },
     "[html]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true
     },
     "[json]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    }
+    },
 }

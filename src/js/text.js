@@ -1,6 +1,6 @@
 import '../css/text.css';
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 export default class Text extends Component {
   static modifiers = {

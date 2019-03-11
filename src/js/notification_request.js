@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../css/notificationRequest.css';
-import { register } from '../service_worker';
 import firebase from './firebase';
 
 export default class NotificationRequest extends Component {
@@ -49,11 +48,11 @@ export default class NotificationRequest extends Component {
       // send to token to firebase when it refreshes
       messaging.onTokenRefresh(() => {
         messaging.getToken()
-        .then((token) => {
-          const register = firebase.functions().httpsCallable("registerPushSubscription");
-          register(token).then((ret) => console.log(ret));
-          console.log(token);
-        });
+          .then((token) => {
+            const register = firebase.functions().httpsCallable("registerPushSubscription");
+            register(token).then((ret) => console.log(ret));
+            console.log(token);
+          });
       });
 
       messaging.onMessage((payload) => {
