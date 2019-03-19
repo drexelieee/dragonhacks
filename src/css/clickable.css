@@ -4,7 +4,7 @@
 
 .clickable {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
   color: unset;
 }
@@ -22,15 +22,12 @@
   display: block;
   font-family: var(--text-font);
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .clickable--nav-link:hover,
 .clickable--border:hover {
   color: var(--primary-color);
-}
-
-.clickable--link {
-  text-decoration: underline;
 }
 
 .clickable--button {
