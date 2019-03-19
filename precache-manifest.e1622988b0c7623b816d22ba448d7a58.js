@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "804de3a489d5e57699c9",
-    "url": "/dragonhacks/static/css/main.1971b66f.chunk.css"
+    "revision": "daac35a11868e308b312",
+    "url": "/dragonhacks/static/css/main.befd640a.chunk.css"
   },
   {
-    "revision": "804de3a489d5e57699c9",
-    "url": "/dragonhacks/static/js/main.804de3a4.chunk.js"
+    "revision": "daac35a11868e308b312",
+    "url": "/dragonhacks/static/js/main.daac35a1.chunk.js"
   },
   {
-    "revision": "3187b030ae73ac8beb40",
-    "url": "/dragonhacks/static/js/1.3187b030.chunk.js"
+    "revision": "7b6c6a0217f86574a134",
+    "url": "/dragonhacks/static/js/1.7b6c6a02.chunk.js"
   },
   {
     "revision": "94edb2abd02e424b96f2",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "5ddb47bccf24fdb3646643948a3c27d0",
     "url": "/dragonhacks/static/media/dragon_arcade.5ddb47bc.png"
-  },
-  {
-    "revision": "db76d530076110b3721ab3cd278b9e8b",
-    "url": "/dragonhacks/static/media/dragon_arcade.db76d530.svg"
   },
   {
     "revision": "fc1c2f1a741c7c83c15e86fa88242225",
@@ -84,7 +80,7 @@ self.__precacheManifest = [
     "url": "/dragonhacks/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf"
   },
   {
-    "revision": "fdc3576fd7975564ccd29bb3e21dbb2f",
+    "revision": "215543a7375672973ec2a0d648c7c5c5",
     "url": "/dragonhacks/index.html"
   }
 ];
