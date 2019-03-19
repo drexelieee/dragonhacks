@@ -13,3 +13,11 @@
 .logo__image {
   width: 200px;
 }
+
+/*
+ * Modifiers
+ */
+
+.logo--mlh {
+  margin: 20px;
+}

@@ -223,7 +223,7 @@ export default class App extends Component {
               <Text big>
                 In partnership with
               </Text>
-              <Logo href="https://mlh.org"
+              <Logo mlh href="https://mlh.org"
                 imgSrc="logo_mlh.svg"
                 altText="MLH"/>
               <Clickable border href={require('./pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
