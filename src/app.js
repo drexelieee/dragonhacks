@@ -18,24 +18,19 @@ export default class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Section id="home" main>
-          <h1>Dragon<wbr/>Hacks</h1>
+        <Section id="home" heading={"Dragon Hacks " + App.data.year} main>
           <Text big>
             Drexel's very own 24-hour hackathon!
           </Text>
           <Text big>
-            <Text big inline prefix>
-              <span className="fas fa-map-marker-alt"/>
-            </Text>
             <Clickable href="https://goo.gl/maps/EQj1FVXS1UG2">
+              <span className="fas fa-map-marker-alt"/>{' '}
               Bossone Research Enterprise Center
             </Clickable>
           </Text>
           <Text big>
-            <Text inline big prefix>
-              <span className="fas fa-calendar"/>
-            </Text>
             <Text inline big>
+              <span className="fas fa-calendar"/>{' '}
               <time dateTime="2019-04-20">
                 April 20<sup>th</sup>&ndash;21<sup>st</sup> {this.props.year}
               </time>

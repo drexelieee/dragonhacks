@@ -28,15 +28,9 @@
   border-bottom: 0.1em solid var(--primary-color);
 }
 
-@media (max-width: 510px) {
-  .section__header {
-    font-size: 24pt;
-  }
-}
-
 /*
- * Modifier
- */
+* Modifier
+*/
 
 .section--main {
   font-size: 64pt;
@@ -63,4 +57,24 @@
   content: "";
   padding-bottom: 16px;
   display: block;
+}
+
+.section__header--main {
+  position: unset;
+  left: unset;
+  font-size: 64pt;
+  border-bottom: unset;
+  margin-bottom: 0.75em;
+}
+
+@media (max-width: 790px) {
+  .section__header--main {
+    font-size: 48pt;
+  }
+}
+
+@media (max-width: 593px) {
+  .section__header--main {
+    font-size: 36pt;
+  }
 }
