@@ -24,10 +24,6 @@
   color: var(--primary-color);
 }
 
-.text--prefix {
-  margin-right: 0.5em;
-}
-
 .text--big {
   font-weight: bold;
   font-size: 15pt;

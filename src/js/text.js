@@ -1,31 +1,20 @@
 import '../css/text.css';
 
 import React, {Component} from 'react';
+import classNames from 'classnames';
 
 export default class Text extends Component {
-  static modifiers = {
-    accent: 'text--accent',
-    prefix: 'text--prefix',
-    big: 'text--big',
-    bigger: 'text--bigger',
-  }
-
-  getModifiers = () => {
-    let mods = ['text'];
-    for (let prop in this.props) {
-      if (this.props.hasOwnProperty(prop) && Text.modifiers[prop]) {
-        mods.push(Text.modifiers[prop]);
-      }
-    }
-    return mods.join(' ');
-  }
-
   render() {
-    const TopLevelTag = this.props.inline ? 'span' : 'p';
+    const Root = this.props.inline ? 'span' : 'p';
+    let rootClasses = classNames('text', {
+      'text--accent': this.props.accent,
+      'text--big': this.props.big,
+      'text--bigger': this.props.bigger,
+    });
     return (
-      <TopLevelTag className={this.getModifiers()}>
+      <Root className={rootClasses}>
         {this.props.children}
-      </TopLevelTag>
+      </Root>
     );
   }
 }
