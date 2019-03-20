@@ -2,7 +2,7 @@
   "name": "dragonhack-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jcarrete5.github.io/dragonhacks",
+  "homepage": "https://drexelieee.github.io/dragonhacks",
   "dependencies": {
     "classnames": "^2.2.6",
     "firebase": "^5.8.6",
