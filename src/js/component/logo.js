@@ -1,8 +1,8 @@
-import '../css/logo.css';
+import 'css/logo.css';
 
 import React, {Component} from 'react';
-import Clickable from './clickable';
 import classNames from 'classnames';
+import Clickable from './clickable';
 
 export default class Logo extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class Logo extends Component {
       <div className={rootClasses}>
         <Clickable href={this.props.href}>
           <img className="logo__image"
-            src={require("../img/" + this.props.imgSrc)}
+            src={require('img/' + this.props.imgSrc)}
             alt={this.props.altText}/>
         </Clickable>
       </div>

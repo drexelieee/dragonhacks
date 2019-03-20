@@ -1,13 +1,13 @@
-import './css/app.css';
+import 'css/app.css';
 
 import React, {Component} from 'react';
-import NavBar from './js/navbar';
-import Section from './js/section';
-import Text from './js/text';
-import Logo from './js/logo';
-import SponsorTier from './js/sponsor_tier';
-import FAQ from './js/faq';
-import Clickable from './js/clickable';
+import NavBar from './navbar';
+import Section from './section';
+import Text from './text';
+import Logo from './logo';
+import SponsorTier from './sponsor_tier';
+import FAQ from './faq';
+import Clickable from './clickable';
 
 export default class App extends Component {
   static data = {
@@ -226,7 +226,7 @@ export default class App extends Component {
               <Logo mlh href="https://mlh.org"
                 imgSrc="logo_mlh.svg"
                 altText="MLH"/>
-              <Clickable border href={require('./pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
+              <Clickable border href={require('pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
                 <Text inline>Full Sponsorship Information</Text>
               </Clickable>
             </div>

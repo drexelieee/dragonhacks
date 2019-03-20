@@ -1,4 +1,4 @@
-import '../css/text.css';
+import 'css/text.css';
 
 import React, {Component} from 'react';
 import classNames from 'classnames';

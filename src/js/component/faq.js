@@ -1,4 +1,4 @@
-import '../css/faq.css';
+import 'css/faq.css';
 
 import React, {Component} from 'react';
 import Text from './text';

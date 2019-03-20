@@ -1,4 +1,4 @@
-import '../css/clickable.css';
+import 'css/clickable.css';
 
 import React, {Component} from 'react';
 import classNames from 'classnames';

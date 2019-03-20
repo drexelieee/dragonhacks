@@ -1,4 +1,4 @@
-import '../css/section.css';
+import 'css/section.css';
 
 import React, {Component} from 'react';
 import classNames from 'classnames';

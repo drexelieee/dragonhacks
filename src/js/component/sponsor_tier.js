@@ -1,4 +1,4 @@
-import '../css/sponsor_tier.css';
+import 'css/sponsor_tier.css';
 
 import React, {Component} from 'react';
 
