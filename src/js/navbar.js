@@ -1,6 +1,7 @@
 import '../css/navbar.css';
 
 import React, {Component} from 'react';
+import classNames from 'classnames';
 import Text from './text';
 import Clickable from './clickable';
 
@@ -75,23 +76,12 @@ class NavBarMenu extends Component {
 }
 
 class NavBarList extends Component {
-  static modifiers = {
-    dropdown: 'navbar__list--dropdown',
-  };
-
-  getModifiers = () => {
-    let mods = ['navbar__list'];
-    for (let prop in this.props) {
-      if (this.props.hasOwnProperty(prop) && NavBarList.modifiers[prop]) {
-        mods.push(NavBarList.modifiers[prop]);
-      }
-    }
-    return mods.join(' ');
-  }
-
   render() {
+    let rootClasses = classNames('navbar__list', {
+      'navbar__list--dropdown': this.props.dropdown,
+    });
     return (
-      <nav className={this.getModifiers()}>
+      <nav className={rootClasses}>
         <div className="navbar__list-item">
           <Clickable navLink href="#home">Home</Clickable>
         </div>

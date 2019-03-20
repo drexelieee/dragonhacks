@@ -1,29 +1,18 @@
 import '../css/clickable.css';
 
 import React, {Component} from 'react';
+import classNames from 'classnames';
 
 export default class Clickable extends Component {
-  // Mapping of props to css modifier class names
-  static modifiers = {
-    border: 'clickable--border',
-    link: 'clickable--link',
-    navLink: 'clickable--nav-link',
-    button: 'clickable--button',
-  };
-
-  getModifiers = () => {
-    let mods = ['clickable'];
-    for (let prop in this.props) {
-      if (this.props.hasOwnProperty(prop) && Clickable.modifiers[prop]) {
-        mods.push(Clickable.modifiers[prop]);
-      }
-    }
-    return mods.join(' ');
-  }
-
   render() {
+    let rootClasses = classNames('clickable', {
+      'clickable--border': this.props.border,
+      'clickable--link': this.props.link,
+      'clickable--nav-link': this.props.navLink,
+    });
     return (
-      <a className={this.getModifiers()} href={this.props.href} onClick={this.props.onClick}>
+      <a className={rootClasses} href={this.props.href}
+        onClick={this.props.onClick}>
         {this.props.children}
       </a>
     );
