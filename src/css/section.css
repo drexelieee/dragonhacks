@@ -33,8 +33,8 @@
 */
 
 .section--main {
-  font-size: 64pt;
   margin: 0;
+  font: 15pt bold;
   text-align: center;
   min-height: 100vh;
   background-image:
@@ -76,5 +76,15 @@
 @media (max-width: 593px) {
   .section__header--main {
     font-size: 36pt;
+  }
+}
+
+@media (max-width: 430px) {
+  .section__header--main {
+    font-size: 28pt;
+  }
+
+  .section--main {
+    font-size: 12pt;
   }
 }
