@@ -34,7 +34,7 @@
 
 .section--main {
   margin: 0;
-  font: 15pt bold;
+  font: 20pt bold;
   text-align: center;
   min-height: 100vh;
   background-image:
@@ -68,12 +68,20 @@
 }
 
 @media (max-width: 790px) {
+  .section--main {
+    font-size: 18pt;
+  }
+
   .section__header--main {
     font-size: 48pt;
   }
 }
 
 @media (max-width: 593px) {
+  .section--main {
+    font-size: 15pt;
+  }
+  
   .section__header--main {
     font-size: 36pt;
   }
