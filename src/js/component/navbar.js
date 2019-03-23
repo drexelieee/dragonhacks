@@ -57,7 +57,6 @@ class NavBarMenu extends Component {
   }
 
   toggleMenu = () => {
-    console.log('click');
     this.setState((state) => ({
       open: !state.open
     }));
