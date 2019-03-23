@@ -16,8 +16,13 @@ export default class NavBar extends Component {
   onResize = () => {
     if (window.innerWidth < 625) {
       this.setState({showMenu: true});
+      let mlhBadge = document.getElementById('mlh-trust-badge');
+      mlhBadge.style.top = 'unset';
     } else {
       this.setState({showMenu: false});
+      let mlhBadge = document.getElementById('mlh-trust-badge');
+      let pageNavBar = document.getElementById('page-navbar');
+      mlhBadge.style.top = `${pageNavBar.offsetHeight}px`;
     }
   }
 
@@ -57,6 +62,8 @@ class NavBarMenu extends Component {
   }
 
   toggleMenu = () => {
+    let mlhBadge = document.getElementById('mlh-trust-badge');
+    mlhBadge.style.display = this.state.open ? 'unset' : 'none';
     this.setState((state) => ({
       open: !state.open
     }));
