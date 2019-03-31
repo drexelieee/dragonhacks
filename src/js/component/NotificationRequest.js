@@ -1,6 +1,6 @@
-import 'css/notificationRequest.css';
+import 'css/NotificationRequest.css';
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import firebase from 'js/firebase';
 
 export default class NotificationRequest extends Component {

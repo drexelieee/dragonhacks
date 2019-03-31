@@ -1,6 +1,6 @@
-import 'css/clickable.css';
+import 'css/Clickable.css';
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
 
 export default class Clickable extends Component {

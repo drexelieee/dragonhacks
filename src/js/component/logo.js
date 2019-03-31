@@ -1,8 +1,8 @@
-import 'css/logo.css';
+import 'css/Logo.css';
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
-import Clickable from './clickable';
+import Clickable from './Clickable';
 
 export default class Logo extends Component {
   render() {

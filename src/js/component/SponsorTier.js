@@ -1,6 +1,6 @@
-import 'css/sponsor_tier.css';
+import 'css/SponsorTier.css';
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 export default class SponsorTier extends Component {
   render() {

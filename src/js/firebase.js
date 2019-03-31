@@ -1,5 +1,5 @@
 import firebase from 'firebase';
-import {apiKey} from './private';
+import { apiKey } from './private';
 
 // Initialize Firebase
 var config = {

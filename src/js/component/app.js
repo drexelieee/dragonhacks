@@ -1,13 +1,13 @@
-import 'css/app.css';
+import 'css/App.css';
 
-import React, {Component} from 'react';
-import NavBar from './navbar';
-import Section from './section';
-import Text from './text';
-import Logo from './logo';
-import SponsorTier from './sponsor_tier';
-import FAQ from './faq';
-import Clickable from './clickable';
+import React, { Component } from 'react';
+import NavBar from './Navbar';
+import Section from './Section';
+import Text from './Text';
+import Logo from './Logo';
+import SponsorTier from './SponsorTier';
+import FAQ from './Faq';
+import Clickable from './Clickable';
 
 export default class App extends Component {
   static data = {

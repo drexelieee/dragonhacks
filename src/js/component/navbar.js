@@ -1,9 +1,9 @@
-import 'css/navbar.css';
+import 'css/Navbar.css';
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
-import Text from './text';
-import Clickable from './clickable';
+import Text from './Text';
+import Clickable from './Clickable';
 
 export default class NavBar extends Component {
   constructor(props) {

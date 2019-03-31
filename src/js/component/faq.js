@@ -1,7 +1,7 @@
-import 'css/faq.css';
+import 'css/Faq.css';
 
-import React, {Component} from 'react';
-import Text from './text';
+import React, { Component } from 'react';
+import Text from './Text';
 
 export default class FAQ extends Component {
   render() {
