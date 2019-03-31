@@ -4,25 +4,26 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Text from './Text';
 import Clickable from './Clickable';
+import MLHBadge from './MLHBadge';
 
 export default class NavBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       showMenu: false,
+      badgeOffset: '0',
     };
+    this.navbarRef = React.createRef();
   }
 
   onResize = () => {
     if (window.innerWidth < 625) {
-      this.setState({showMenu: true});
-      let mlhBadge = document.getElementById('mlh-trust-badge');
-      mlhBadge.style.top = 'unset';
+      this.setState({showMenu: true, badgeOffset: '0'});
     } else {
-      this.setState({showMenu: false});
-      let mlhBadge = document.getElementById('mlh-trust-badge');
-      let pageNavBar = document.getElementById('page-navbar');
-      mlhBadge.style.top = `${pageNavBar.offsetHeight}px`;
+      this.setState({
+        showMenu: false,
+        badgeOffset: `${this.navbarRef.current.offsetHeight}px`
+      });
     }
   }
 
@@ -37,7 +38,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div id="page-navbar" className="navbar">
+      <div id="page-navbar" className="navbar" ref={this.navbarRef}>
         <div className="navbar__logo">
           <Text inline bigger>
             Dragon<Text inline bigger accent>Hacks</Text>
@@ -48,6 +49,7 @@ export default class NavBar extends Component {
         ) : (
           <NavBarList/>
         )}
+        <MLHBadge topOffset={this.state.badgeOffset}/>
       </div>
     );
   }
