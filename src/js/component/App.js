@@ -1,5 +1,7 @@
 import 'css/App.css';
 
+import sponsorshipDoc from 'doc/Dragon_Hacks_2018_Sponsorship_Document.pdf';
+
 import React, { Component } from 'react';
 import NavBar from './Navbar';
 import Section from './Section';
@@ -76,6 +78,7 @@ export default class App extends Component {
           <FAQ question="Do you provide any hardware?">
             Yes! Here is the list of hardware we will be providing during DragonHacks {' '}
             {App.data.year}: {' '}
+            {/* Fix dead link */}
             <Clickable link href="img/DragonHacks%202018%20Hardware%20List.pdf">Hardware List</Clickable>
           </FAQ>
           <FAQ question="Are there prizes?">
@@ -216,8 +219,7 @@ export default class App extends Component {
               company. More information is in the link to the right. Please
               contact {' '}
               <Clickable link href="mailto:teamdragonhacks@gmail.com">teamdragonhacks@gmail.com</Clickable>
-              {' '} to
-              begin sponsoring!
+              {' '} to begin sponsoring!
             </Text>
             <div style={{textAlign: 'center', padding: '20px 0'}}>
               <Text big>
@@ -226,7 +228,7 @@ export default class App extends Component {
               <Logo mlh href="https://mlh.org"
                 imgSrc="logo_mlh.svg"
                 altText="MLH"/>
-              <Clickable border href={require('pdf/Dragon_Hacks_2018_Sponsorship_Document.pdf')}>
+              <Clickable border href={sponsorshipDoc}>
                 <Text inline>Full Sponsorship Information</Text>
               </Clickable>
             </div>
