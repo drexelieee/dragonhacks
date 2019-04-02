@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "88455171883edf0b7d17",
-    "url": "/static/css/main.29649fae.chunk.css"
+    "revision": "9dc60725c03f146bfb3a",
+    "url": "/static/css/main.9444ae87.chunk.css"
   },
   {
-    "revision": "88455171883edf0b7d17",
-    "url": "/static/js/main.88455171.chunk.js"
+    "revision": "9dc60725c03f146bfb3a",
+    "url": "/static/js/main.9dc60725.chunk.js"
   },
   {
-    "revision": "4664e3bae1706eae124b",
-    "url": "/static/js/1.4664e3ba.chunk.js"
+    "revision": "60da00352c9a946b7b04",
+    "url": "/static/js/1.60da0035.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/static/media/logo_ieee.fd9c0ae0.png"
   },
   {
+    "revision": "6eeef96558ca4e100f4bc813dd9ff205",
+    "url": "/static/media/logo_insomnia.6eeef965.png"
+  },
+  {
     "revision": "a239eb865447e9b99abef1d599f1032f",
     "url": "/static/media/logo_jetbrains.a239eb86.png"
   },
@@ -68,6 +72,14 @@ self.__precacheManifest = [
     "url": "/static/media/logo_mlh.0457acc1.svg"
   },
   {
+    "revision": "b5c23f114e4630aa6f69162f81e12c0e",
+    "url": "/static/media/logo_playpodgames.b5c23f11.webp"
+  },
+  {
+    "revision": "4ea829b81cacbc2e957296812c06e76f",
+    "url": "/static/media/logo_promptworks.4ea829b8.png"
+  },
+  {
     "revision": "fc3f2afc3e6ae89d0f0716e52404323d",
     "url": "/static/media/logo_sketch.fc3f2afc.png"
   },
@@ -80,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_westphal.3e9a2ea3.png"
   },
   {
-    "revision": "696054a2ee45cb53f2399c562d3a4a4a",
+    "revision": "49831f1fc4944fdd0a9c3c6614514b81",
     "url": "/index.html"
   }
 ];
