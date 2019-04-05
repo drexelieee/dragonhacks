@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.9444ae87.chunk.css",
-  "main.js": "/static/js/main.9dc60725.chunk.js",
-  "main.js.map": "/static/js/main.9dc60725.chunk.js.map",
-  "static/js/1.60da0035.chunk.js": "/static/js/1.60da0035.chunk.js",
-  "static/js/1.60da0035.chunk.js.map": "/static/js/1.60da0035.chunk.js.map",
+  "main.css": "/static/css/main.5152ab21.chunk.css",
+  "main.js": "/static/js/main.ba52e3c7.chunk.js",
+  "main.js.map": "/static/js/main.ba52e3c7.chunk.js.map",
+  "static/js/1.cecc348b.chunk.js": "/static/js/1.cecc348b.chunk.js",
+  "static/js/1.cecc348b.chunk.js.map": "/static/js/1.cecc348b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Dragon_Hacks_2018_Sponsorship_Document.pdf": "/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf",
@@ -23,10 +23,11 @@
   "static/media/logo_playpodgames.webp": "/static/media/logo_playpodgames.b5c23f11.webp",
   "static/media/logo_promptworks.png": "/static/media/logo_promptworks.4ea829b8.png",
   "static/media/logo_sketch.png": "/static/media/logo_sketch.fc3f2afc.png",
+  "static/media/logo_tech.png": "/static/media/logo_tech.650e6b23.png",
   "static/media/logo_vanguard.svg": "/static/media/logo_vanguard.fab91937.svg",
   "static/media/logo_westphal.png": "/static/media/logo_westphal.3e9a2ea3.png",
-  "static/css/main.9444ae87.chunk.css.map": "/static/css/main.9444ae87.chunk.css.map",
+  "static/css/main.5152ab21.chunk.css.map": "/static/css/main.5152ab21.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.78e69c6c1f40ab1b5ca51e5e6a519c71.js": "/precache-manifest.78e69c6c1f40ab1b5ca51e5e6a519c71.js",
+  "precache-manifest.e6135982d22cdb14599dbaa392abbd33.js": "/precache-manifest.e6135982d22cdb14599dbaa392abbd33.js",
   "service-worker.js": "/service-worker.js"
 }

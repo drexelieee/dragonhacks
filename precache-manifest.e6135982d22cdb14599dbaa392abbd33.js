@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9dc60725c03f146bfb3a",
-    "url": "/static/css/main.9444ae87.chunk.css"
+    "revision": "ba52e3c7b99a3033d595",
+    "url": "/static/css/main.5152ab21.chunk.css"
   },
   {
-    "revision": "9dc60725c03f146bfb3a",
-    "url": "/static/js/main.9dc60725.chunk.js"
+    "revision": "ba52e3c7b99a3033d595",
+    "url": "/static/js/main.ba52e3c7.chunk.js"
   },
   {
-    "revision": "60da00352c9a946b7b04",
-    "url": "/static/js/1.60da0035.chunk.js"
+    "revision": "cecc348b43a2edecdf53",
+    "url": "/static/js/1.cecc348b.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -84,6 +84,10 @@ self.__precacheManifest = [
     "url": "/static/media/logo_sketch.fc3f2afc.png"
   },
   {
+    "revision": "650e6b235309a18478db5e60d89cedca",
+    "url": "/static/media/logo_tech.650e6b23.png"
+  },
+  {
     "revision": "fab91937d74e74800d80cc7f4a400818",
     "url": "/static/media/logo_vanguard.fab91937.svg"
   },
@@ -92,7 +96,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_westphal.3e9a2ea3.png"
   },
   {
-    "revision": "49831f1fc4944fdd0a9c3c6614514b81",
+    "revision": "456f96c6b03e3fb1f06be304fc39ac91",
     "url": "/index.html"
   }
 ];
