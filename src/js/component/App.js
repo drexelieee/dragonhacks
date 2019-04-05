@@ -218,6 +218,9 @@ export default class App extends Component {
               <Logo href="https://www.playpodgames.com/"
                 imgSrc="logo_playpodgames.webp"
                 altText="Play Pod Games"/>
+              <Logo href="https://get.tech/"
+                imgSrc="logo_tech.png"
+                altText=".tech Domains"/>
             </SponsorTier>
           </Section>
           <Section heading="Sponsor Us!">
