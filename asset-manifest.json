@@ -1,12 +1,12 @@
 {
   "main.css": "/static/css/main.5152ab21.chunk.css",
-  "main.js": "/static/js/main.ba52e3c7.chunk.js",
-  "main.js.map": "/static/js/main.ba52e3c7.chunk.js.map",
+  "main.js": "/static/js/main.82c7eab1.chunk.js",
+  "main.js.map": "/static/js/main.82c7eab1.chunk.js.map",
   "static/js/1.cecc348b.chunk.js": "/static/js/1.cecc348b.chunk.js",
   "static/js/1.cecc348b.chunk.js.map": "/static/js/1.cecc348b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/Dragon_Hacks_2018_Sponsorship_Document.pdf": "/static/media/Dragon_Hacks_2018_Sponsorship_Document.15f4b24b.pdf",
+  "static/media/Dragon_Hacks_Sponsorship.pdf": "/static/media/Dragon_Hacks_Sponsorship.32fc5d62.pdf",
   "static/media/dragon_arcade.png": "/static/media/dragon_arcade.5ddb47bc.png",
   "static/media/logo_balsamiq.svg": "/static/media/logo_balsamiq.fc1c2f1a.svg",
   "static/media/logo_dell_boomi.svg": "/static/media/logo_dell_boomi.27eb2b2e.svg",
@@ -28,6 +28,6 @@
   "static/media/logo_westphal.png": "/static/media/logo_westphal.3e9a2ea3.png",
   "static/css/main.5152ab21.chunk.css.map": "/static/css/main.5152ab21.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e6135982d22cdb14599dbaa392abbd33.js": "/precache-manifest.e6135982d22cdb14599dbaa392abbd33.js",
+  "precache-manifest.4c77b116c40ecebd03cfba66afad8bf9.js": "/precache-manifest.4c77b116c40ecebd03cfba66afad8bf9.js",
   "service-worker.js": "/service-worker.js"
 }
