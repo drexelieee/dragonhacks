@@ -1,6 +1,6 @@
 import 'css/App.css';
 
-import sponsorshipDoc from 'doc/Dragon_Hacks_2018_Sponsorship_Document.pdf';
+import sponsorshipDoc from 'doc/Dragon_Hacks_Sponsorship.pdf';
 
 import React, { Component } from 'react';
 import NavBar from './Navbar';
