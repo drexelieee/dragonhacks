@@ -1,7 +1,38 @@
+/*
+ * Block
+ */
+
 .schedule {
-
+  margin: 10px 20px;
 }
 
-.schedule__row {
+/*
+ * Element
+ */
 
+.schedule__title {
+  font-family: var(--header-font);
+  font-size: 18pt;
+  text-align: center;
+  margin-bottom: 12px;
 }
+
+.schedule__header {
+  font-family: var(--header-font);
+  font-size: 16pt;
+  border-bottom: thin solid black;
+}
+
+.schedule__row-cell {
+  padding: 3px 40px;
+
+  border-bottom: thin solid black;
+}
+
+/*
+ * Modifier
+ */
+
+ .schedule__row-cell--time {
+   font-weight: bold;
+ }

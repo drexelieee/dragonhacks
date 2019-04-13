@@ -66,31 +66,37 @@ export default class App extends Component {
           </Text>
         </Section>
         <Section id="schedule" heading="Schedule">
-          <Schedule>
-            <ScheduleRow time="2019-04-20T09:00" event="Registration"/>
-            <ScheduleRow time="2019-04-20T11:00" event="Team Building 1"/>
-            <ScheduleRow time="2019-04-20T12:00" event="Team Building 2"/>
-            <ScheduleRow time="2019-04-20T13:00" event="Lunch &amp; Network"/>
-            <ScheduleRow time="2019-04-20T14:00" event="Opening Ceremony"/>
-            <ScheduleRow time="2019-04-20T15:00" event="Tech Workshop 1"/>
-            <ScheduleRow time="2019-04-20T16:00" event="Tech Workshop 2"/>
-            <ScheduleRow time="2019-04-20T17:00" event="Tech Workshop 3"/>
-            <ScheduleRow time="2019-04-20T18:00" event="Tech Workshop 4"/>
-            <ScheduleRow time="2019-04-20T19:00" event="Dinner"/>
-            <ScheduleRow time="2019-04-20T19:30" event="Arcade Opens!"/>
-            <ScheduleRow time="2019-04-20T20:00" event="Entertainment"/>
-          </Schedule>
-          <Schedule>
-            <ScheduleRow time="2019-05-20T00:00" event="More Entertainment"/>
-            <ScheduleRow time="2019-05-20T01:00" event="Midnight Pizza"/>
-            <ScheduleRow time="2019-05-20T09:00" event="Breakfast"/>
-            <ScheduleRow time="2019-05-20T13:00" event="Lunch"/>
-            <ScheduleRow time="2019-05-20T14:00" event="Devpost Submissions"/>
-            <ScheduleRow time="2019-05-20T15:00" event="Hacking Ends"/>
-            <ScheduleRow time="2019-05-20T16:00" event="Judging Begins"/>
-            <ScheduleRow time="2019-05-20T17:00" event="Closing Ceremony"/>
-            <ScheduleRow time="2019-05-20T17:30" event="Return Equipment"/>
-          </Schedule>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'space-around',
+            flexWrap: 'wrap'
+          }}>
+            <Schedule title="Saturday">
+              <ScheduleRow time="2019-04-20T09:00" event="Registration"/>
+              <ScheduleRow time="2019-04-20T11:00" event="Team Building 1"/>
+              <ScheduleRow time="2019-04-20T12:00" event="Team Building 2"/>
+              <ScheduleRow time="2019-04-20T13:00" event="Lunch &amp; Network"/>
+              <ScheduleRow time="2019-04-20T14:00" event="Opening Ceremony"/>
+              <ScheduleRow time="2019-04-20T15:00" event="Tech Workshop 1"/>
+              <ScheduleRow time="2019-04-20T16:00" event="Tech Workshop 2"/>
+              <ScheduleRow time="2019-04-20T17:00" event="Tech Workshop 3"/>
+              <ScheduleRow time="2019-04-20T18:00" event="Tech Workshop 4"/>
+              <ScheduleRow time="2019-04-20T19:00" event="Dinner"/>
+              <ScheduleRow time="2019-04-20T19:30" event="Arcade Opens!"/>
+              <ScheduleRow time="2019-04-20T20:00" event="Entertainment"/>
+            </Schedule>
+            <Schedule title="Sunday">
+              <ScheduleRow time="2019-05-20T00:00" event="More Entertainment"/>
+              <ScheduleRow time="2019-05-20T01:00" event="Midnight Pizza"/>
+              <ScheduleRow time="2019-05-20T09:00" event="Breakfast"/>
+              <ScheduleRow time="2019-05-20T13:00" event="Lunch"/>
+              <ScheduleRow time="2019-05-20T14:00" event="Devpost Submissions"/>
+              <ScheduleRow time="2019-05-20T15:00" event="Hacking Ends"/>
+              <ScheduleRow time="2019-05-20T16:00" event="Judging Begins"/>
+              <ScheduleRow time="2019-05-20T17:00" event="Closing Ceremony"/>
+              <ScheduleRow time="2019-05-20T17:30" event="Return Equipment"/>
+            </Schedule>
+          </div>
         </Section>
         <Section id="faq" heading="FAQ">
           <FAQ question="Is there a code of conduct?">
