@@ -10,6 +10,7 @@ import Logo from './Logo';
 import SponsorTier from './SponsorTier';
 import FAQ from './Faq';
 import Clickable from './Clickable';
+import Schedule from './Schedule';
 
 export default class App extends Component {
   static data = {
@@ -64,7 +65,9 @@ export default class App extends Component {
             you also must participate on the Sunday judging.
           </Text>
         </Section>
-        <Section id="schedule" heading="Schedule"/>
+        <Section id="schedule" heading="Schedule">
+          <Schedule/>
+        </Section>
         <Section id="faq" heading="FAQ">
           <FAQ question="Is there a code of conduct?">
             Yes. Abide by the <Clickable link href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
