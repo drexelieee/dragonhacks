@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0efdddf0c3d8716ae9c3",
-    "url": "/static/css/main.4d4a8218.chunk.css"
+    "revision": "c6e73761b74140a0f782",
+    "url": "/static/css/main.e7449a3d.chunk.css"
   },
   {
-    "revision": "0efdddf0c3d8716ae9c3",
-    "url": "/static/js/main.0efdddf0.chunk.js"
+    "revision": "c6e73761b74140a0f782",
+    "url": "/static/js/main.c6e73761.chunk.js"
   },
   {
     "revision": "33f31e86fe9c70716d63",
@@ -18,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "32fc5d6238ffb3561b07862dd7c4fa42",
     "url": "/static/media/Dragon_Hacks_Sponsorship.32fc5d62.pdf"
+  },
+  {
+    "revision": "ac0c25b469bc056e08618b15c538872d",
+    "url": "/static/media/pixel_emulator.ac0c25b4.otf"
   },
   {
     "revision": "5ddb47bccf24fdb3646643948a3c27d0",
@@ -96,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_westphal.3e9a2ea3.png"
   },
   {
-    "revision": "5f081f176c837d058da5381225073b56",
+    "revision": "c84c3c30147b82c8666011cea2245812",
     "url": "/index.html"
   }
 ];
