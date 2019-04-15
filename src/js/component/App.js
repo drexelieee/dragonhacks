@@ -15,6 +15,8 @@ import Schedule, { ScheduleRow } from './Schedule';
 export default class App extends Component {
   static data = {
     year: 2019,
+    devpost: 'https://dragonhacks2019.devpost.com/',
+    slack: 'https://dragonhacks2018.slack.com',
   }
 
   render() {
@@ -100,7 +102,7 @@ export default class App extends Component {
         </Section>
         <Section id="faq" heading="FAQ">
           <FAQ question="Is there a code of conduct?">
-            Yes. Abide by the <Clickable link href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
+            Yes. Abide by the <Clickable link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH
             Code of Conduct</Clickable>
           </FAQ>
           <FAQ question="What should I bring to the hackathon?">
@@ -126,7 +128,7 @@ export default class App extends Component {
           </FAQ>
           <FAQ question="How do we submit our projects?">
             All submissions will be due on 2 PM Sunday on the DragonHacks {App.data.year}
-            {' '} <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable>
+            {' '} <Clickable link href={App.data.devpost}>Devpost</Clickable>
             {' '} site. We highly recommend you submit at 1:30 PM to give yourself some
             wiggle room for any last-minute technical issues. All projects {' '}
             <strong>must</strong> be submitted on Devpost in order to be eligible
@@ -138,11 +140,11 @@ export default class App extends Component {
             find teammates, and trust us, hacking with a team is a lot more
             fun! Team sizes have to be 2&ndash;5 people. You should be invited to
             the official DragonHacks {App.data.year} {' '}
-            <Clickable link href="https://dragonhacks2018.slack.com">Slack Group</Clickable> where we
+            <Clickable link href={App.data.slack}>Slack Group</Clickable> where we
             have a <b>#teamformation</b> channel dedicated to team formations.
             We will also be holding a team formation event before the kickoff
             and opening ceremony. Also check out the DragonHacks {App.data.year} {' '}
-            <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable> challenges
+            <Clickable link href={App.data.devpost}>Devpost</Clickable> challenges
             for inspiration on what problems to tackle.
           </FAQ>
           <FAQ question="What challenges are there?">
@@ -152,7 +154,7 @@ export default class App extends Component {
             also have sponsor challenges from JetBrains, .tech, Wolfram, Lockheed
             Martin, Close School of Entrepreneurship, GLOBO, and more! The full
             list of challenges are listed in the Official DragonHacks {App.data.year}
-            {' '} <Clickable link href="http://dragonhacks2018.devpost.com/">Devpost</Clickable>.
+            {' '} <Clickable link href={App.data.devpost}>Devpost</Clickable>.
           </FAQ>
           <FAQ question="Who can join?">
             DragonHacks is open to all university students (undergrad/grad). High
