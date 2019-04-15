@@ -67,7 +67,7 @@
   margin-bottom: 0.75em;
 }
 
-@media (max-width: 790px) {
+@media (max-width: 920px) {
   .section--main {
     font-size: 18pt;
   }
@@ -77,22 +77,28 @@
   }
 }
 
-@media (max-width: 593px) {
+@media (max-width: 687px) {
   .section--main {
     font-size: 15pt;
   }
-  
+
   .section__header--main {
     font-size: 36pt;
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 517px) {
   .section__header--main {
     font-size: 28pt;
   }
 
   .section--main {
     font-size: 12pt;
+  }
+}
+
+@media (max-width: 400px) {
+  .section__header--main {
+    font-size: 24pt;
   }
 }

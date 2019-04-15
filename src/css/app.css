@@ -1,6 +1,11 @@
 /******************
  * Type Selectors *
  ******************/
+ 
+ @font-face {
+   font-family: 'Pixel';
+   src: url('../font/pixel_emulator.otf');
+ }
 
 :root {
   /* Theme colors */
@@ -14,7 +19,7 @@
 
   /* Font stacks */
   --text-font: 'Open Sans', sans-serif;
-  --header-font: 'Montserrat', sans-serif;
+  --header-font: 'Pixel', sans-serif;
 }
 
 body {
