@@ -222,6 +222,9 @@ export default class App extends Component {
               <Logo href="https://cloud.google.com/"
                 imgSrc="logo_google_cloud.svg"
                 altText="Google Cloud Platform"/>
+              <Logo href="https://drexel.edu/alumni/"
+                imgSrc="logo_drexel_alumni.png"
+                altText="Drexel Alumni"/>
             </SponsorTier>
             <SponsorTier>
               <Logo href="https://investor.vanguard.com/corporate-portal/"
