@@ -233,6 +233,9 @@ export default class App extends Component {
               <Logo href="https://balsamiq.com/"
                 imgSrc="logo_balsamiq.svg"
                 altText="Balsamiq"/>
+              <Logo href="https://www.promptworks.com/"
+                imgSrc="logo_promptworks.png"
+                altText="Promptworks"/>
             </SponsorTier>
             <SponsorTier>
               <Logo href="https://www.jetbrains.com/"
@@ -250,9 +253,6 @@ export default class App extends Component {
               <Logo href="https://insomniacookies.com/"
                 imgSrc="logo_insomnia.png"
                 altText="Insomnia Cookies"/>
-              <Logo href="https://www.promptworks.com/"
-                imgSrc="logo_promptworks.png"
-                altText="Promptworks"/>
               <Logo href="https://www.playpodgames.com/"
                 imgSrc="logo_playpodgames.webp"
                 altText="Play Pod Games"/>
