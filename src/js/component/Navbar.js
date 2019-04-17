@@ -12,19 +12,22 @@ export default class NavBar extends Component {
     this.state = {
       showMenu: false,
       menuOpen: false,
-      badgeOffset: '0',
+      badgeOffset: '100%',
     };
-    this.navbarRef = React.createRef();
   }
 
   onResize = () => {
     if (window.innerWidth < 625) {
-      this.setState({showMenu: true, badgeOffset: '0'});
+      this.setState({
+        showMenu: true,
+        menuOpen: false,
+        badgeOffset: '0'
+      });
     } else {
       this.setState({
         showMenu: false,
         menuOpen: false,
-        badgeOffset: `${this.navbarRef.current.offsetHeight-1}px`
+        badgeOffset: '100%'
       });
     }
   }
@@ -37,6 +40,8 @@ export default class NavBar extends Component {
 
   componentDidMount() {
     window.addEventListener('resize', this.onResize);
+
+    // Place the MLH badge in the correct spot when component mounts
     this.onResize();
   }
 
@@ -46,7 +51,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div id="page-navbar" className="navbar" ref={this.navbarRef}>
+      <div id="page-navbar" className="navbar">
         <div className="navbar__logo">
           <Text inline bigger>
             Dragon<Text inline bigger accent>Hacks</Text>
