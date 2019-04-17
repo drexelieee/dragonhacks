@@ -11,6 +11,7 @@ export default class NavBar extends Component {
     super(props);
     this.state = {
       showMenu: false,
+      menuOpen: false,
       badgeOffset: '0',
     };
     this.navbarRef = React.createRef();
@@ -22,9 +23,16 @@ export default class NavBar extends Component {
     } else {
       this.setState({
         showMenu: false,
-        badgeOffset: `${this.navbarRef.current.offsetHeight}px`
+        menuOpen: false,
+        badgeOffset: `${this.navbarRef.current.offsetHeight-1}px`
       });
     }
+  }
+
+  toggleMenu = () => {
+    this.setState((state) => ({
+      menuOpen: !state.menuOpen
+    }));
   }
 
   componentDidMount() {
@@ -45,39 +53,24 @@ export default class NavBar extends Component {
           </Text>
         </div>
         {this.state.showMenu ? (
-          <NavBarMenu/>
+          <NavBarMenu open={this.state.menuOpen} toggleMenu={this.toggleMenu}/>
         ) : (
           <NavBarList/>
         )}
-        <MLHBadge topOffset={this.state.badgeOffset}/>
+        {!this.state.menuOpen && <MLHBadge topOffset={this.state.badgeOffset}/>}
       </div>
     );
   }
 }
 
 class NavBarMenu extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      open: false,
-    };
-  }
-
-  toggleMenu = () => {
-    let mlhBadge = document.getElementById('mlh-trust-badge');
-    mlhBadge.style.display = this.state.open ? 'unset' : 'none';
-    this.setState((state) => ({
-      open: !state.open
-    }));
-  }
-
   render() {
     return (
       <div className="navbar__menu">
-        <Clickable button onClick={this.toggleMenu}>
+        <Clickable button onClick={this.props.toggleMenu}>
           <span className="fas fa-bars"/>
         </Clickable>
-        {this.state.open && <NavBarList dropdown/>}
+        {this.props.open && <NavBarList dropdown/>}
       </div>
     );
   }
