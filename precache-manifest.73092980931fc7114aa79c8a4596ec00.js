@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "544e47ddbc164026a056",
-    "url": "/static/css/main.9efd3a68.chunk.css"
+    "revision": "75caa8ee409c45d64c9b",
+    "url": "/static/css/main.2d535f5d.chunk.css"
   },
   {
-    "revision": "544e47ddbc164026a056",
-    "url": "/static/js/main.544e47dd.chunk.js"
+    "revision": "75caa8ee409c45d64c9b",
+    "url": "/static/js/main.75caa8ee.chunk.js"
   },
   {
     "revision": "ff856682df7f8a3733f9",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo_westphal.3e9a2ea3.png"
   },
   {
-    "revision": "065809d88ac16cb8323c055d2ee58243",
+    "revision": "2966d28c139a5d611ae0a5223c6383b2",
     "url": "/index.html"
   }
 ];
