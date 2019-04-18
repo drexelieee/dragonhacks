@@ -62,14 +62,16 @@ export default class App extends Component {
           </Text>
           <Text>
             We will have more than enough East coast exclusive food and
-            caffeine to energize hungry and excited hackers. With over $10,000
-            in prizes this year, your sleepless efforts will be rewarded!
+            caffeine to energize hungry and excited hackers. Your sleepless efforts
+            will be rewarded with swag and other goodies!
           </Text>
           <Text>
-            Hacking begins at 2 PM Saturday April 20th right after the 1 PM
-            opening ceremony and ends at 2 PM Sunday April 21st. You must
-            submit your project on Devpost. In order to be eligible for prizes,
-            you also must participate on the Sunday judging.
+            Hacking begins at <time dateTime="2019-04-20T14:00-0400">2 PM on Saturday,
+            April 20<sup>th</sup></time> right after the opening ceremony and ends at
+            <time dateTime="2019-05-20T14:00-0400">2 PM on Sunday, April 21<sup>st</sup></time>.
+            You must submit your project on {' '}
+            <Clickable link href={App.data.devpost}>Devpost</Clickable>. In order to be
+            eligible for prizes, you also must demonstrate your project.
           </Text>
         </Section>
         <Section id="schedule" heading="Schedule">
@@ -124,8 +126,8 @@ export default class App extends Component {
             the <Clickable link href={dhHardware}>DragonHacks Hardware List</Clickable>.
           </FAQ>
           <FAQ question="Are there prizes?">
-            With over $10,000 in prizes at DragonHacks {App.data.year}, there is more
-            than enough to go around! You will have the opportunity to compete
+            There are plenty of prizes to be won at DragonHacks {App.data.year}!
+            You will have the opportunity to compete
             in plenty of challenges for a chance to win: Xbox Ones, PS4s, GoPros,
             Apple Watches, Samsung LED TVs, Nintendo Switches, iPad Airs, and way
             more! First place gets first choice of prizes with each member in
@@ -134,12 +136,14 @@ export default class App extends Component {
             submitted on Devpost in order to be eligible for judging.
           </FAQ>
           <FAQ question="How do we submit our projects?">
-            All submissions will be due on 2 PM Sunday on the DragonHacks {App.data.year}
+            All submissions will be due on <time dateTime="2019-05-20T14:00-0400">
+            Sunday at 2 PM</time> on the DragonHacks {App.data.year}
             {' '} <Clickable link href={App.data.devpost}>Devpost</Clickable>
-            {' '} site. We highly recommend you submit at 1:30 PM to give yourself some
+            {' '} site. We highly recommend you submit at {' '}
+            <time dateTime="2019-05-20T13:30-0400">1:30 PM</time> to give yourself some
             wiggle room for any last-minute technical issues. All projects {' '}
             <strong>must</strong> be submitted on Devpost in order to be eligible
-            for judging and the $10,000 in prizes!
+            for judging and prizes!
           </FAQ>
           <FAQ question="I don't have a team or idea :( What should I do?">
             If you do not currently have a team or idea, do not fear! Many
