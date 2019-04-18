@@ -18,7 +18,6 @@ export default class App extends Component {
   static data = {
     year: 2019,
     devpost: 'https://dragonhacks2019.devpost.com/',
-    slack: 'https://dragonhacks2018.slack.com',
   }
 
   render() {
@@ -142,8 +141,7 @@ export default class App extends Component {
             hackers come in without teams or ideas. There are two methods to
             find teammates, and trust us, hacking with a team is a lot more
             fun! Team sizes have to be 2&ndash;5 people. You should be invited to
-            the official DragonHacks {App.data.year} {' '}
-            <Clickable link href={App.data.slack}>Slack Group</Clickable> where we
+            the official DragonHacks {App.data.year} Slack Group where we
             have a <b>#teamformation</b> channel dedicated to team formations.
             We will also be holding a team formation event before the kickoff
             and opening ceremony. Also check out the DragonHacks {App.data.year} {' '}
