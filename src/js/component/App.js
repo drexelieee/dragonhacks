@@ -1,6 +1,8 @@
 import 'css/App.css';
 
 import sponsorshipDoc from 'doc/Dragon_Hacks_Sponsorship.pdf';
+import mlhHardware from 'doc/MLH_Hardware.pdf';
+import dhHardware from 'doc/DragonHacks_Hardware.pdf';
 
 import React, { Component } from 'react';
 import NavBar from './Navbar';
@@ -111,10 +113,11 @@ export default class App extends Component {
             (keyboard, mouse, etc.).
           </FAQ>
           <FAQ question="Do you provide any hardware?">
-            Yes! Here is the list of hardware we will be providing during DragonHacks {' '}
+            Yes! Here is the list of hardware MLH will be providing during DragonHacks {' '}
             {App.data.year}: {' '}
-            {/* Fix dead link */}
-            <Clickable link href="img/DragonHacks%202018%20Hardware%20List.pdf">Hardware List</Clickable>
+            <Clickable link href={mlhHardware}>MLH Hardware</Clickable>. We will also be
+            providing our own hardware which can be found on
+            the <Clickable link href={dhHardware}>DragonHacks Hardware List</Clickable>.
           </FAQ>
           <FAQ question="Are there prizes?">
             With over $10,000 in prizes at DragonHacks {App.data.year}, there is more
