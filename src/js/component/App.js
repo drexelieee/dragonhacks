@@ -3,6 +3,7 @@ import 'css/App.css';
 import sponsorshipDoc from 'doc/Dragon_Hacks_Sponsorship.pdf';
 import mlhHardware from 'doc/MLH_Hardware.pdf';
 import dhHardware from 'doc/DragonHacks_Hardware.pdf';
+import gameManual from 'doc/Game_Manual.pdf';
 
 import React, { Component } from 'react';
 import NavBar from './Navbar';
@@ -45,6 +46,9 @@ export default class App extends Component {
           <Text>
             <Clickable border href="https://drexelieee.typeform.com/to/rzQNqb">
               Register for DragonHacks
+            </Clickable>
+            <Clickable border href={gameManual}>
+              Game Manual
             </Clickable>
           </Text>
         </Section>

@@ -16,6 +16,7 @@
 .clickable--border {
   border: solid 2px;
   padding: 0.3em;
+  margin: 0.2em;
   text-decoration: none;
 }
 
