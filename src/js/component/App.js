@@ -225,7 +225,7 @@ export default class App extends Component {
                 imgSrc="logo_dell_boomi.svg"
                 altText="Dell Boomi"/>
               <Logo href="https://cloud.google.com/"
-                imgSrc="logo_google_cloud.svg"
+                imgSrc="logo_gcp.png"
                 altText="Google Cloud Platform"/>
               <Logo href="https://drexel.edu/alumni/"
                 imgSrc="logo_drexel_alumni.png"
