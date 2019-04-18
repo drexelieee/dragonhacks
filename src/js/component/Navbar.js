@@ -12,7 +12,7 @@ export default class NavBar extends Component {
     this.state = {
       showMenu: false,
       menuOpen: false,
-      badgeOffset: '100%',
+      badgeOffset: 'calc(100% - 1px)',
     };
   }
 
@@ -27,7 +27,7 @@ export default class NavBar extends Component {
       this.setState({
         showMenu: false,
         menuOpen: false,
-        badgeOffset: '100%'
+        badgeOffset: 'calc(100% - 1px)'
       });
     }
   }
