@@ -84,17 +84,18 @@ export default class App extends Component {
               <ScheduleRow time="2019-04-20T12:00-0400" event="Team Building 2"/>
               <ScheduleRow time="2019-04-20T13:00-0400" event="Lunch &amp; Network"/>
               <ScheduleRow time="2019-04-20T14:00-0400" event="Opening Ceremony"/>
-              <ScheduleRow time="2019-04-20T15:00-0400" event="Tech Workshop 1"/>
-              <ScheduleRow time="2019-04-20T16:00-0400" event="Tech Workshop 2"/>
-              <ScheduleRow time="2019-04-20T17:00-0400" event="Tech Workshop 3"/>
-              <ScheduleRow time="2019-04-20T18:00-0400" event="Tech Workshop 4"/>
+              <ScheduleRow time="2019-04-20T15:00-0400" event="Google Cloud Workshop"/>
+              <ScheduleRow time="2019-04-20T16:00-0400" event="Video Game Graphics Talk"/>
+              <ScheduleRow time="2019-04-20T18:00-0400" event="Node.js App Workshop"/>
               <ScheduleRow time="2019-04-20T19:00-0400" event="Dinner"/>
               <ScheduleRow time="2019-04-20T19:30-0400" event="Arcade Opens!"/>
-              <ScheduleRow time="2019-04-20T20:00-0400" event="Entertainment"/>
+              <ScheduleRow time="2019-04-20T20:00-0400" event="MLH Cup Stacking"/>
+              <ScheduleRow time="2019-04-20T23:00-0400" event="Computer Vision Workshop"/>
             </Schedule>
             <Schedule title="Sunday">
-              <ScheduleRow time="2019-05-20T00:00-0400" event="More Entertainment"/>
+              <ScheduleRow time="2019-05-20T00:00-0400" event="Entertainment!"/>
               <ScheduleRow time="2019-05-20T01:00-0400" event="Midnight Pizza"/>
+              <ScheduleRow time="2019-05-20T02:00-0400" event="FAQ Bot Workshop"/>
               <ScheduleRow time="2019-05-20T09:00-0400" event="Breakfast"/>
               <ScheduleRow time="2019-05-20T13:00-0400" event="Lunch"/>
               <ScheduleRow time="2019-05-20T14:00-0400" event="Devpost Submissions"/>
