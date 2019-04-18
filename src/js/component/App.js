@@ -239,6 +239,9 @@ export default class App extends Component {
               <Logo href="https://www.promptworks.com/"
                 imgSrc="logo_promptworks.png"
                 altText="Promptworks"/>
+              <Logo href="https://drexel.edu/pennoni/"
+                imgSrc="logo_pennoni.jpg"
+                altText="Pennoni Honors College"/>
             </SponsorTier>
             <SponsorTier>
               <Logo href="https://www.jetbrains.com/"
