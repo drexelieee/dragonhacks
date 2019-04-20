@@ -29,14 +29,9 @@ export class ScheduleRow extends Component {
     return (
       <tr className="schedule__row">
         <td className="schedule__row-cell schedule__row-cell--time">
-          <time dateTime={this.props.time}>
-            <Text inline>
-              {new Date(this.props.time).toLocaleTimeString(
-                navigator.language,
-                {hour: 'numeric', minute: '2-digit'}
-              )}
-            </Text>
-          </time>
+          <Text inline>
+            {this.props.time}
+          </Text>
         </td>
         <td className="schedule__row-cell">
           <Text inline>{this.props.event}</Text>

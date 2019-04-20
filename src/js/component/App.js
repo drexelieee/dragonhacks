@@ -44,9 +44,10 @@ export default class App extends Component {
             </Text>
           </Text>
           <Text>
-            <Clickable border href="https://drexelieee.typeform.com/to/rzQNqb">
+            {/* Registration is now closed */}
+            {/* <Clickable border href="https://drexelieee.typeform.com/to/rzQNqb">
               Register for DragonHacks
-            </Clickable>
+            </Clickable> */}
             <Clickable border href={gameManual}>
               Game Manual
             </Clickable>
@@ -81,30 +82,30 @@ export default class App extends Component {
             flexWrap: 'wrap'
           }}>
             <Schedule title="Saturday">
-              <ScheduleRow time="2019-04-20T09:00-0400" event="Registration"/>
-              <ScheduleRow time="2019-04-20T11:00-0400" event="Team Building 1"/>
-              <ScheduleRow time="2019-04-20T12:00-0400" event="Team Building 2"/>
-              <ScheduleRow time="2019-04-20T13:00-0400" event="Lunch &amp; Network"/>
-              <ScheduleRow time="2019-04-20T14:00-0400" event="Opening Ceremony"/>
-              <ScheduleRow time="2019-04-20T15:00-0400" event="Google Cloud Workshop"/>
-              <ScheduleRow time="2019-04-20T16:00-0400" event="Video Game Graphics Talk"/>
-              <ScheduleRow time="2019-04-20T18:00-0400" event="Node.js App Workshop"/>
-              <ScheduleRow time="2019-04-20T19:00-0400" event="Dinner"/>
-              <ScheduleRow time="2019-04-20T19:30-0400" event="Arcade Opens!"/>
-              <ScheduleRow time="2019-04-20T20:00-0400" event="MLH Cup Stacking"/>
-              <ScheduleRow time="2019-04-20T23:00-0400" event="Computer Vision Workshop"/>
+              <ScheduleRow time="9:00 AM" event="Registration"/>
+              <ScheduleRow time="11:00 AM" event="Team Building 1"/>
+              <ScheduleRow time="12:00 PM" event="Team Building 2"/>
+              <ScheduleRow time="1:00 PM" event="Lunch &amp; Network"/>
+              <ScheduleRow time="2:00 PM" event="Opening Ceremony"/>
+              <ScheduleRow time="3:00 PM" event="Google Cloud Workshop"/>
+              <ScheduleRow time="4:00 PM" event="Video Game Graphics Talk"/>
+              <ScheduleRow time="6:00 PM" event="Node.js App Workshop"/>
+              <ScheduleRow time="7:00 PM" event="Dinner"/>
+              <ScheduleRow time="7:30 PM" event="Arcade Opens!"/>
+              <ScheduleRow time="8:00 PM" event="MLH Cup Stacking"/>
+              <ScheduleRow time="11:00 PM" event="Computer Vision Workshop"/>
             </Schedule>
             <Schedule title="Sunday">
-              <ScheduleRow time="2019-05-20T00:00-0400" event="Entertainment!"/>
-              <ScheduleRow time="2019-05-20T01:00-0400" event="Midnight Pizza"/>
-              <ScheduleRow time="2019-05-20T02:00-0400" event="FAQ Bot Workshop"/>
-              <ScheduleRow time="2019-05-20T09:00-0400" event="Breakfast"/>
-              <ScheduleRow time="2019-05-20T13:00-0400" event="Lunch"/>
-              <ScheduleRow time="2019-05-20T14:00-0400" event="Devpost Submissions"/>
-              <ScheduleRow time="2019-05-20T15:00-0400" event="Hacking Ends"/>
-              <ScheduleRow time="2019-05-20T16:00-0400" event="Judging Begins"/>
-              <ScheduleRow time="2019-05-20T17:00-0400" event="Closing Ceremony"/>
-              <ScheduleRow time="2019-05-20T17:30-0400" event="Return Equipment"/>
+              <ScheduleRow time="12:00 AM" event="Entertainment!"/>
+              <ScheduleRow time="1:00 AM" event="Midnight Pizza"/>
+              <ScheduleRow time="2:00 AM" event="FAQ Bot Workshop"/>
+              <ScheduleRow time="9:00 AM" event="Breakfast"/>
+              <ScheduleRow time="1:00 PM" event="Lunch"/>
+              <ScheduleRow time="2:00 PM" event="Devpost Submissions"/>
+              <ScheduleRow time="3:00 PM" event="Hacking Ends"/>
+              <ScheduleRow time="4:00 PM" event="Judging Begins"/>
+              <ScheduleRow time="5:00 PM" event="Closing Ceremony"/>
+              <ScheduleRow time="5:30 PM" event="Return Equipment"/>
             </Schedule>
           </div>
         </Section>
