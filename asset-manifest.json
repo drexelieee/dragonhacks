@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.904b2e88.chunk.css",
-  "main.js": "/static/js/main.bd7b8ec7.chunk.js",
-  "main.js.map": "/static/js/main.bd7b8ec7.chunk.js.map",
+  "main.js": "/static/js/main.fa797326.chunk.js",
+  "main.js.map": "/static/js/main.fa797326.chunk.js.map",
   "static/js/1.a53f55e5.chunk.js": "/static/js/1.a53f55e5.chunk.js",
   "static/js/1.a53f55e5.chunk.js.map": "/static/js/1.a53f55e5.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -33,6 +33,6 @@
   "static/media/logo_westphal.png": "/static/media/logo_westphal.3e9a2ea3.png",
   "static/css/main.904b2e88.chunk.css.map": "/static/css/main.904b2e88.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.43db3ceae8b59100e15aa6d0f5fedffb.js": "/precache-manifest.43db3ceae8b59100e15aa6d0f5fedffb.js",
+  "precache-manifest.13347c68b09003cd0c438873673f4477.js": "/precache-manifest.13347c68b09003cd0c438873673f4477.js",
   "service-worker.js": "/service-worker.js"
 }
