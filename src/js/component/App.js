@@ -18,7 +18,7 @@ import Schedule, { ScheduleRow } from './Schedule';
 export default class App extends Component {
   static data = {
     year: 2019,
-    devpost: 'https://dragonhacks2019.devpost.com/',
+    devpost: 'https://dragonhacks-2019.devpost.com',
   }
 
   render() {
