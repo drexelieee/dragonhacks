@@ -1,4 +1,3 @@
-import 'css/App.css';
 
 import sponsorshipDoc from 'doc/Dragon_Hacks_Sponsorship.pdf';
 import mlhHardware from 'doc/MLH_Hardware.pdf';
